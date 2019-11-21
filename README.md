@@ -1,7 +1,3 @@
-# Code Institute
+# Igor Basuga
 
-Welcome USER_NAME,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+When completed, this will be my first ever Web Development project. :)
