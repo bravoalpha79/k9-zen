@@ -49,26 +49,40 @@ h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  min-height: 2000px;
+}
+
+.jumbotron-container {
+    height: 100vh;
 }
 
 .jumbotron {
     background-color: transparent;
+    text-align: center;
+    margin-top: 40px;
 }
 
-
-.prt-container {
-    width:100%;
-    height: 50vh;
-    background-color: transparent;
-    bottom: 0; 
+.jumbotron h1 {
+    font-family: "Acme", sans-serif;
 }
 
-#prt-explain {
-    height: 90%;
-    width: 50%;
+.jumbotron p {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#prt-container {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+#prt-intro {
     margin: 0 auto;
+    max-width: 620px;
 }
+
 
 
 
@@ -85,3 +99,32 @@ h6 {
 .copyright {
     text-align: center;
 }
+
+.social-media h5 {
+    margin-top: 16px;
+}
+
+.social-link {
+    height: 40px;
+    width: 40px;
+    /*border-radius: 50%;
+    border: 1px solid #4a4a4f;*/
+    margin: 0px 15px 5px;
+    
+}
+
+.social-link a i {
+    color: #4a4a4f;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.copyright {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+
