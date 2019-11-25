@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 70px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
@@ -14,8 +14,9 @@ h4,
 h5, 
 h6 {
     font-family: "Lato", sans-serif;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -41,9 +42,7 @@ h6 {
 .nav-link {
     margin-left: 4px;
     margin-right: 4px;
-    font-family: "Lato", sans-serif;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .dropdown-menu {
@@ -69,7 +68,7 @@ h6 {
 .jumbotron {
     background-color: rgba(255,228,196,0.6);
     text-align: center;
-    margin-top: 80px;
+    margin-top: 16px;
     padding-top: 16px;
     padding-bottom: 20px;
     border-radius: 8px;
@@ -94,15 +93,73 @@ h6 {
 #prt-intro {
     background-color: rgba(255,228,196,0.6);
     margin: 0 auto;
-    /*max-width: 90%;*/
     padding: 32px 40px;
     border-radius: 8px;
 }
 
 
+/* ----------------- Training ------------------ */
 
+.training-container { 
+    background: url("../img/homepage.jpg") no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
 
+.offer-container {
+    background-color: rgba(255,228,196,0.6);
+    border-radius: 8px;
+    padding: 16px 24px;
+    margin: 0 auto;
+}
 
+.trg i {
+    display: block;
+    font-size:32px;
+    padding-top: 16px;
+    padding-bottom: 9px;
+}
+
+.trg-more-info p {
+    background-color: 	rgba(154, 136, 114,0.6);
+    margin-top: 18px;
+    padding: 9px;
+    border-radius: 8px;
+    text-align: center;    
+}
+
+#where {
+    border-radius: 8px;
+}
+
+.map-container {
+    background-color: rgba(255,228,196,0.6);
+    padding: 12px;
+    border-radius: 8px;
+    margin: 16px auto 0;
+}
+
+.location-info {
+   margin: auto auto;
+}
+
+.timetable-container {
+    background-color: rgba(255,228,196,0.6);
+    border-radius: 8px;
+    margin: 16px auto;
+    padding: 18px;
+}
+
+.timetable-day {
+    background-color: rgba(154, 136, 114,0.6);
+    text-align: center;
+    border-radius: 8px;
+    margin: 6px;
+}
 
 /* ----------------- Footer ------------------ */
 
