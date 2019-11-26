@@ -97,6 +97,11 @@ h6 {
     border-radius: 8px;
 }
 
+#prt-intro span {
+   margin-top: 24px;
+   display: blocK;
+   text-align: center;
+}
 
 /* ----------------- Training ------------------ */
 
