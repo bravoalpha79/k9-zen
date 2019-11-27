@@ -101,7 +101,7 @@ h6 {
 
 #prt-intro span {
    margin-top: 24px;
-   display: blocK;
+   display: block;
    text-align: center;
 }
 
@@ -136,10 +136,6 @@ h6 {
     padding: 9px;
     border-radius: 8px;
     text-align: center;    
-}
-
-#where {
-    border-radius: 8px;
 }
 
 #map-container {
@@ -293,6 +289,25 @@ h6 {
 .learn-more p {
     text-align: center;
 }
+
+
+
+/* ----------------- Modals ------------------ */
+
+.phone-number {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
 
 
 /* ----------------- Footer ------------------ */
