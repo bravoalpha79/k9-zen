@@ -36,7 +36,7 @@ h6 {
 }
 
 .navbar-brand:hover {
-    background-color: #b8a690;
+    background-color: #e7d2b7;
 }
 
 .nav-link {
@@ -68,7 +68,7 @@ h6 {
 }
 
 .jumbotron {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     text-align: center;
     margin-top: 18px;
     padding-top: 16px;
@@ -93,7 +93,7 @@ h6 {
 }
 
 #prt-intro {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     margin: 0 auto;
     padding: 32px 40px;
     border-radius: 8px;
@@ -118,7 +118,7 @@ h6 {
 }
 
 #offer {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     border-radius: 8px;
     padding: 16px 24px;
 }
@@ -131,7 +131,7 @@ h6 {
 }
 
 .trg-more-info p {
-    background-color: 	rgba(154, 136, 114,0.6);
+    background-color: 	rgba(154, 136, 114,0.7);
     margin-top: 18px;
     padding: 9px;
     border-radius: 8px;
@@ -139,7 +139,7 @@ h6 {
 }
 
 #map-container {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     padding: 12px;
     border-radius: 8px;
     margin-top: 16px;
@@ -150,14 +150,14 @@ h6 {
 }
 
 #timetable-container {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     border-radius: 8px;
     margin-top: 16px;
     padding: 18px;
 }
 
 .timetable-day {
-    background-color: rgba(154, 136, 114,0.6);
+    background-color: rgba(154, 136, 114,0.7);
     text-align: center;
     border-radius: 8px;
     margin: 6px;
@@ -189,7 +189,7 @@ h6 {
 }
 
 .contact-options {
-    background-color: rgba(255,228,196,0.6);
+    background-color: rgba(255,228,196,0.7);
     border-radius: 8px;
     margin-top: 10vh; 
     padding-top: 18px;
@@ -274,20 +274,22 @@ h6 {
 
 .about-jane h4, 
 .about-john h4 {
-   padding-top: 16px;
+   padding-top: 12px;
 }
+
 
 .jane-image img,
 .john-image img {
     height: 90%;
     width: 100%;
     border-radius: 8px; 
-    margin-top: 5%;
+    margin-top: 12px;
 }
 
 
 .learn-more p {
     text-align: center;
+    margin-bottom: 0;
 }
 
 
