@@ -32,7 +32,15 @@ h6 {
 }
 
 .inline--anchor {
-    color: #445c5c;
+    color: #335c5c;
+}
+
+.custom--modal-bg {
+    background-color: #f0d9bc;
+}
+
+.custom--modal-body {
+    border: 1px solid #a8afaf;
 }
 
 /* ----------------- Navbar ------------------ */
