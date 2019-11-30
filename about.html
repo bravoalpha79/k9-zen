@@ -12,31 +12,27 @@
 	<title>K9Zen | About</title>
 </head>
 
-
 <body>
 	<header>
 		<!-- Navbar core HTML copied from Bootstrap documentation and adapted -->
-
 		<nav class="navbar fixed-top navbar-expand-sm navbar-light">
 			<a class="navbar-brand" href="index.html">K9Zen</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
-
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Training
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="index.html#prt-container">Why K9Zen?</a>
+							<a class="dropdown-item" href="index.html#prt">Why K9Zen?</a>
 							<a class="dropdown-item" href="training.html">What we offer</a>
-							<a class="dropdown-item" href="training.html#map-container">Where we train</a>
-							<a class="dropdown-item" href="training.html#timetable-container">Class timetable</a>
+							<a class="dropdown-item" href="training.html#location">Where we train</a>
+							<a class="dropdown-item" href="training.html#timetable">Class timetable</a>
 						</div>
 					</li>
 					<li class="nav-item">
@@ -45,24 +41,24 @@
 					<li class="nav-item">
 						<a class="nav-link active" href="about.html">About</a>
 					</li>
+				</ul>
 			</div>
 		</nav>
 	</header>
-
 	<article>
 		<div class="container-fluid about-container">
 			<section class="container">
-				<div class="row justify-content-center about-us">
+				<div class="row justify-content-center about-us frame--main">
 					<div class="col-12 about-heading">
 						<h2>Our instructors</h2>
 					</div>
-				    <div class="row justify-content-center about-jane">
+				    <div class="row justify-content-center frame--info about-jane">
 					    <div class="col-lg-6 jane-image">
 							<img src="assets/img/jane.jpg" alt="Jane photo"/>
 					    </div>
 					    <div class="col-lg-6 jane-text">
-								<h4>Jane Smith</h4>
-								<p>
+							<h4>Jane Smith</h4>
+							<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, magnam harum
 									consectetur
 									unde cum recusandae inventore excepturi id, sequi facilis numquam velit maiores.
@@ -71,10 +67,10 @@
 									Facere,
 									laboriosam id! Eos vero omnis ea soluta eum quibusdam repellendus officiis
 									veritatis?
-									<p>
+								<p>
 					    </div>
 				    </div>
-				    <div class="row justify-content-center about-john">
+				    <div class="row justify-content-center frame--info about-john">
 					    <div class="col-lg-6 john-text">
 								<h4>John Smith</h4>
 								<p>
@@ -92,13 +88,13 @@
 								<img src="assets/img/john.jpg" alt="John photo"/>
 					    </div>
 				    </div>
-				    <div class="row justify-content-center learn-more">
+				    <div class="row justify-content-center frame--info learn-more">
 					    <div class="col-10">
 							<p>
 										Would you like to know more about our instructors or about Positive
 										Reinforcement
 										Training? <br />Please do not hesitate to
-										<span><a href=contact.html>contact us</a></span>.
+										<span><a class="inline--anchor" href="contact.html">contact us</a></span>.
 							</p>
 					    </div>
 				    </div>
@@ -106,10 +102,6 @@
 			</section>
 		</div>
 	</article>
-
-
-
-
 	<footer class="container-fluid footer-bar">
 		<div class="row">
 			<div class="col">

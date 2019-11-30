@@ -12,32 +12,27 @@
 	<title>K9Zen | Training</title>
 </head>
 
-
-
 <body>
 	<header>
 		<!-- Navbar core HTML copied from Bootstrap documentation and adapted -->
-
 		<nav class="navbar fixed-top navbar-expand-sm navbar-light">
 			<a class="navbar-brand" href="index.html">K9Zen</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
-
 					<li class="nav-item active dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Training
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="index.html#prt-container">Why K9Zen?</a>
+							<a class="dropdown-item" href="index.html#prt">Why K9Zen?</a>
 							<a class="dropdown-item" href="training.html">What we offer</a>
-							<a class="dropdown-item" href="training.html#map-container">Where we train</a>
-							<a class="dropdown-item" href="training.html#timetable-container">Class timetable</a>
+							<a class="dropdown-item" href="training.html#location">Where we train</a>
+							<a class="dropdown-item" href="training.html#timetable">Class timetable</a>
 						</div>
 					</li>
 					<li class="nav-item">
@@ -46,14 +41,14 @@
 					<li class="nav-item">
 						<a class="nav-link" href="about.html">About</a>
 					</li>
+				</ul>
 			</div>
 		</nav>
 	</header>
-
 	<article>
 		<div class="container-fluid training-container">
-			<div class="container">
-				<section class="row" id="offer">
+			<div class="container" id="offer">
+				<section class="row frame--main offer-frame">
 					<div class="col-12 offer-header">
 						<h2>What we offer</h2>
 					</div>
@@ -94,22 +89,20 @@
 						</div>
 						<div class="row justify-content-center trg-more-info">
 							<div class="col-11">
-								<p>
-									Please check our <a href="#map-container">location</a> and <a
-										href="#timetable-container">timetable</a> sections for details about our classes. For
+								<p class="frame--info">
+									Please check our <a class="inline--anchor" href="#location">location</a> and <a
+										class="inline--anchor" href="#timetable">timetable</a> sections for
+									details about our classes. For
 									information about individual training and consultation, as well as for any other
-									question you might have, please do not hesitate to <a href="contact.html">contact
+									question you might have, please do not hesitate to <a class="inline--anchor"
+										href="contact.html">contact
 										us</a>.
 								</p>
 							</div>
 						</div>
 					</div>
 				</section>
-
-
-
-
-				<section class="row" id="map-container">
+				<section class="row frame--main" id="location">
 					<div class="col-12 location-header">
 						<h2>Where we train<h2>
 					</div>
@@ -131,14 +124,11 @@
 							width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""> </iframe>
 					</div>
 				</section>
-
-
-
-				<section class="row justify-content-center" id="timetable-container">
+				<section class="row justify-content-center frame--main" id="timetable">
 					<div class="col-12 timetable-header">
 						<h2>Class Timetable</h2>
 					</div>
-					<div class="col-12 col-md-4 col-lg-2 timetable-day">
+					<div class="col-12 col-md-4 col-lg-2 timetable-day frame--info">
 						<h4>Monday</h4>
 						<p>17:00-18:30</p>
 						<h5>Obedience group 1</h5>
@@ -146,7 +136,7 @@
 						<p>19:00-20:30</p>
 						<h5>Tricks group 1</h5>
 					</div>
-					<div class="col-12 col-md-4 col-lg-2 timetable-day">
+					<div class="col-12 col-md-4 col-lg-2 timetable-day frame--info">
 						<h4>Tuesday</h4>
 						<p>16:00-17:30</p>
 						<h5>Obedience group 2</h5>
@@ -154,7 +144,7 @@
 						<p>18:00-19:30</p>
 						<h5>Tricks group 2</h5>
 					</div>
-					<div class="col-12 col-md-4 col-lg-2 timetable-day">
+					<div class="col-12 col-md-4 col-lg-2 timetable-day frame--info">
 						<h4>Thursday</h4>
 						<p>17:00-18:30</p>
 						<h5>Obedience group 1</h5>
@@ -162,7 +152,7 @@
 						<p>19:00-20:30</p>
 						<h5>Tricks group 1</h5>
 					</div>
-					<div class="col-12 col-md-4 col-lg-2 timetable-day">
+					<div class="col-12 col-md-4 col-lg-2 timetable-day frame--info">
 						<h4>Friday</h4>
 						<p>16:00-17:30</p>
 						<h5>Obedience group 2</h5>
@@ -170,7 +160,7 @@
 						<p>18:00-19:30</p>
 						<h5>Tricks group 2</h5>
 					</div>
-					<div class="col-12 col-md-4 col-lg-2 timetable-day">
+					<div class="col-12 col-md-4 col-lg-2 timetable-day frame--info">
 						<h4>Saturday</h4>
 						<p>10:00-11:15</p>
 						<h5>Obedience - <em>spare</em></h5>
@@ -179,21 +169,18 @@
 						<h5>Tricks - <em>spare</em></h5>
 					</div>
 					<div class="col-10 timetable-important">
-						<p>
+						<p class="frame--info">
 							<u>Important note:</u> You are most welcome to visit and observe any of our
 							classes. However,
-							<strong>if you'd like to visit with your dog, please <a href="contact.html">call us</a> in
+							<strong>if you'd like to visit with your dog, please <a class="inline--anchor" href="contact.html">call us</a> in
 								advance</strong>,
 							as some dogs in our classes may be reactive to outside visitors. We thank you for your
 							understanding!
 						</p>
 					</div>
+				</section>
 			</div>
-			</section>
 		</div>
-		</div>
-
-
 	</article>
 
 

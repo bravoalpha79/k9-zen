@@ -19,7 +19,21 @@ h6 {
     font-weight: bold;
 }
 
+/* ------------- Special styles/colours --------------- */
 
+.frame--main {
+     background-color: rgba(255,228,196,0.7);
+     border-radius: 8px;
+}
+
+.frame--info {
+    background-color: 	rgba(154, 136, 114,0.6);
+    border-radius: 8px;
+}
+
+.inline--anchor {
+    color: #445c5c;
+}
 
 /* ----------------- Navbar ------------------ */
 
@@ -52,15 +66,13 @@ h6 {
 
 /* ----------------- Hero & Callout ------------------ */
 
-
-
 .hero-container { 
   background: url("../img/homepage2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 2000px;
+  min-height: 2500px;
 }
 
 .jumbotron-container {
@@ -68,12 +80,10 @@ h6 {
 }
 
 .jumbotron {
-    background-color: rgba(255,228,196,0.7);
     text-align: center;
     margin-top: 18px;
     padding-top: 16px;
     padding-bottom: 20px;
-    border-radius: 8px;
 }
 
 .jumbotron h1 {
@@ -87,23 +97,21 @@ h6 {
     font-weight: 400;
 }
 
-#prt-container {
+#prt {
     padding-top: 100px;
-    margin-bottom: 50vh;
 }
 
-#prt-intro {
-    background-color: rgba(255,228,196,0.7);
+.prt-intro {
     margin: 0 auto;
     padding: 32px 40px;
-    border-radius: 8px;
 }
 
-#prt-intro span {
+.prt-intro span {
    margin-top: 24px;
    display: block;
    text-align: center;
 }
+
 
 /* ----------------- Training ------------------ */
 
@@ -117,9 +125,7 @@ h6 {
     padding-bottom: 18px;
 }
 
-#offer {
-    background-color: rgba(255,228,196,0.7);
-    border-radius: 8px;
+.offer-frame {
     padding: 16px 24px;
 }
 
@@ -131,17 +137,13 @@ h6 {
 }
 
 .trg-more-info p {
-    background-color: 	rgba(154, 136, 114,0.7);
     margin-top: 18px;
     padding: 9px;
-    border-radius: 8px;
     text-align: center;    
 }
 
-#map-container {
-    background-color: rgba(255,228,196,0.7);
+#location {
     padding: 12px;
-    border-radius: 8px;
     margin-top: 16px;
 }
 
@@ -149,17 +151,13 @@ h6 {
    margin: auto auto;
 }
 
-#timetable-container {
-    background-color: rgba(255,228,196,0.7);
-    border-radius: 8px;
+#timetable {
     margin-top: 16px;
     padding: 18px;
 }
 
 .timetable-day {
-    background-color: rgba(154, 136, 114,0.7);
     text-align: center;
-    border-radius: 8px;
     margin: 6px;
     padding-top: 12px;
 }
@@ -175,18 +173,11 @@ h6 {
 }
 
 .timetable-important p {
-    background-color: 	rgba(154, 136, 114,0.7);
     margin-top: 24px;
     padding: 12px;
-    border-radius: 8px;
     text-align: center;
 }
 
-.trg-more-info a,
-.timetable-important a,
-.learn-more a {
-    color: rgb(68, 92, 92);
-}
 
 /* ----------------- Contact ------------------ */
 
@@ -198,19 +189,17 @@ h6 {
     background-size: cover;
     padding-top: 18px;
     padding-bottom: 18px;
-    min-height: 760px;
+    min-height: 85vh;
 }
 
 .contact-options {
-    background-color: rgba(255,228,196,0.7);
-    border-radius: 8px;
     margin-top: 10vh; 
     padding-top: 18px;
     padding-bottom: 32px;
 }
 
 .btn--outer-frame {
-    background-color: rgba(154, 136, 114,0.2);
+    background-color: rgba(154,136,114,0.2);
     height: 210px;
     width: 210px;
     border-radius: 8px;
@@ -232,11 +221,7 @@ h6 {
 .btn--button:hover {
     background-color: rgba(255,228,196,0.8);
     text-decoration: none;
-    color: bisque;
 }
-
-
-
 
 .btn--text,
 .btn--icon {
@@ -255,7 +240,6 @@ h6 {
 }
 
 
-
 /* ----------------- About ------------------ */
 
 .about-container { 
@@ -269,20 +253,15 @@ h6 {
 }
 
 .about-us {
-    background-color: rgba(255,228,196,0.6);
-    border-radius: 8px;
     margin: 12px;
     padding: 16px;
 }
 
-
 .about-jane,
 .about-john,
 .learn-more {
-    background-color: rgba(154, 136, 114,0.6);
     margin: 12px;
     padding: 16px;
-    border-radius: 8px;
 }
 
 .about-jane h4, 
@@ -299,12 +278,10 @@ h6 {
     margin-top: 12px;
 }
 
-
 .learn-more p {
     text-align: center;
     margin-bottom: 0;
 }
-
 
 
 /* ----------------- Modals ------------------ */
@@ -317,16 +294,7 @@ h6 {
     margin-top: 18px;
 }
 
-
-
-
-
-
-
-
-
 /* ----------------- Footer ------------------ */
-
 
 .footer-bar {
     background-color: #ffe4c4;
@@ -345,8 +313,6 @@ h6 {
 .social-link {
     height: 40px;
     width: 40px;
-    /*border-radius: 50%;
-    border: 1px solid #4a4a4f;*/
     margin: 0px 15px 5px;
     
 }
