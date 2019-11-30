@@ -22,8 +22,8 @@ h6 {
 /* ------------- Special styles/colours --------------- */
 
 .frame--main {
-     background-color: rgba(255,228,196,0.7);
-     border-radius: 8px;
+    background-color: rgba(255,228,196,0.7);
+    border-radius: 8px;
 }
 
 .frame--info {
@@ -32,7 +32,14 @@ h6 {
 }
 
 .inline--anchor {
-    color: #335c5c;
+    color: #2c6666;
+}
+
+.read--more {
+    display: block; 
+    text-align: right;
+    font-weight: 400;
+    padding-right: 8px;
 }
 
 .custom--modal-bg {
@@ -137,15 +144,20 @@ h6 {
     padding: 16px 24px;
 }
 
+.trg p {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
 .trg i {
     display: block;
     font-size:32px;
-    padding-top: 16px;
+    padding-top: 24px;
     padding-bottom: 9px;
 }
 
 .trg-more-info p {
-    margin-top: 18px;
+    margin-top: 30px;
     padding: 9px;
     text-align: center;    
 }
@@ -168,6 +180,7 @@ h6 {
     text-align: center;
     margin: 6px;
     padding-top: 12px;
+    box-shadow: 4px 4px 3px #4a4a4f;
 }
 
 .timetable-day p {
@@ -247,6 +260,9 @@ h6 {
     font-size: 26px;
 }
 
+.phone-number {
+    margin-top: 20px; 
+}
 
 /* ----------------- About ------------------ */
 
@@ -289,17 +305,6 @@ h6 {
 .learn-more p {
     text-align: center;
     margin-bottom: 0;
-}
-
-
-/* ----------------- Modals ------------------ */
-
-.phone-number {
-    font-size: 28px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    margin-top: 18px;
 }
 
 /* ----------------- Footer ------------------ */
