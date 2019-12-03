@@ -78,6 +78,11 @@ h6 {
     left: -12px;
 }
 
+.dropdown-menu hr {
+    border-bottom: 1px dotted #4a4a4f;
+    width: 70%;
+}
+
 
 /* ----------------- Hero & Callout ------------------ */
 
