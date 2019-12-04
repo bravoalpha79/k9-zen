@@ -4,7 +4,7 @@ K9Zen (shorthand for "canine zen") is a website for a fictional dog training sch
 
 Traditional dog training usually relies on "carrot-and-stick" methods i.e. the combined use of rewards and punishments (or "corrections") to induce desirable and prevent/correct unwanted dog behaviour. However, while appearing effective on the short term, punishment and the use of force have a negative impact on the dog-owner relationship and may also produce unwanted side effects, such as development of anxiety or reactiveness in the dog. 
 
-On the other hand, K9Zen (appyling PRT) relies solely on positive motivation to steer the dog towards desired behavioural patterns.
+On the other hand, K9Zen (appying PRT) relies solely on positive motivation to steer the dog towards desired behavioural patterns.
 
 **_"K9Zen Training School - because your favourite snout deserves the best."_**
 
@@ -16,7 +16,7 @@ The website is intended primarily for dog owners who are looking to train their 
 
 A second potential user group are visitors (dog owners or not) who have heard about K9Zen and are looking for more detailed information about the school, its location, trainers etc.
 
-A third hypothetical group would be users who are simply looking for more information on PRT. For this group, the information found on the website itself will be relatively limited as the PRT philosophy is not discussed in detail on the pages. Howewer, they can make use of the Contact functionalities on the website to obtain the information they require.
+A third hypothetical group would be users who are simply looking for more information on PRT. For this group, the information found on the website itself will be relatively limited as the PRT philosophy is not discussed in detail on the pages. However, they can make use of the Contact functionalities on the website to obtain the information they require.
 
 As a result, the following requirements were set for the website:
 
@@ -114,7 +114,7 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
       _Note: Upon clicking "Send message", the message form will perform semantic and completeness checks of the fields labelled as required. However, since no back-end processing takes place (as it is outside the scope of this project), the "Send message" button will simply close the pop-up without actually sending the entered information._
 
 ### Features Left to Implement
-- Add the smooth scrolling funtion to links which lead to different sections of the same (current) page (Home and Training).
+- Add the smooth scrolling function to links which lead to different sections of the same (current) page (Home and Training).
 - Add interactivity to the Home gallery (the option to open full-size images).
 - Enable the "Read more" anchors in Training to open the additional information as "inline" dropdown text rather than in pop-ups.   
 
