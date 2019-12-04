@@ -54,9 +54,9 @@ As a result, the following requirements were set for the website:
 
 ### UI structure
 
-Resulting from the above requirements, and bearing in mind the three-click philosophy, the following basic structure has been established:
+Taking into consideration the above requirements, and bearing in mind the three-click philosophy, the following basic structure has been established:
 
- - Home page, containing the School's stylised name (in place of a logo), philosophy and motto, complemented by a small picture gallery (static),
+ - Home page, containing the School's stylised name (in place of a logo), training principles and ethos, complemented by a small picture gallery (static),
  - Training page, containing the information about types of training, location and class timetable,
  - Contact page, containing the available contact options, and
  - About page, containing the trainers' biographies and photos.
@@ -65,7 +65,7 @@ This basic structure is mirrored by a top-fixed navigation bar in the header.
 
 The footer contains the links to the school's social media pages, as well as copyright information.
 
-Four wireframes were created (using wireframe.cc) during the initial UI design phase:
+Four wireframes were created (using [wireframe.cc](wireframe.cc)) during the initial UI design phase:
 
 [Home page](https://wireframe.cc/iC7yCU)   
 [Training](https://wireframe.cc/dQPuJ0)  
@@ -73,73 +73,87 @@ Four wireframes were created (using wireframe.cc) during the initial UI design p
 [Dropdown Menu](https://wireframe.cc/SgXwmQ)
 
 _Note: the final design departs from the initial wireframes in several aspects, in particular:_   
+_- the trainers' bios and photos have been moved to a separate page (About), while the existing About page has been renamed "Training" and now contains only training information,_   
+_- the navigation bar has been updated accordingly (four links),_
 _- the training types information has been moved from Home to Training,_   
-_- the trainers' bios and photos have been moved from Training to a separate new About page; the navigation bar has been updated accordingly, and_   
 _- the Contact page has been completely redesigned for a simpler and cleaner user experience._
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### Navbar
+- The top-fixed navbar provides the user with links to navigate to any of the four available pages; the colour coding in the navbar (darker text colour for the active page link) provides the user with a visual indication of the current page;
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- The Training link opens a dropdown menu which enables the user to navigate directly to individual sections containing specific information about training;
+
+#### Footer links
+- The footer contains links to social networks (Facebook, Twitter, Instagram, YouTube).    
+
+  _Note: since K9Zen is an entirely_ fictional _training school, the footer links will merely open the homepage of the respective social network, not an actual user page._   
+
+#### Home page
+- The button "Discover us!" below the Homepage main heading enables the user to jump directly to the gallery/ethos section without scrolling. 
+
+- The button "What we offer" at the end of the gallery/ethos section enables the user to jump directly to the Training page without having to use the navbar.
+
+#### Training page
+- The "Read more" anchor below each training type description opens a pop-up (modal) containing details about the selected training type.
+
+  _Note: All pop-ups can be closed by clicking anywhere outside the pop-up area, clicking on the Close icon ("x") in the top right corner of the pop-up, or clicking on the Close button (Cancel button for the Message form) in the bottom right corner of the pop-up._ 
+
+- The map in the "Where we train" section is fully interactive (embedded Google Maps iframe). 
+
+#### Contact page
+- Each of the three button-like anchors for contact options opens a pop-up (modal) containing the necessary details for the selected contact option:
+   - the Visit modal provides the user with links to the Location and Timetable sections on the Training page,
+   - the Call modal provides the user with the contact hours and the phone number,
+   - the Message modal provides the user with a message submission form with marked required fields, with the options to Send message or to Cancel.
+
+      _Note: Upon clicking "Send message", the message form will perform semantic and completeness checks of the fields labelled as required. However, since no back-end processing takes place (as it is outside the scope of this project), the "Send message" button will simply close the pop-up without actually sending the entered information._
 
 ### Features Left to Implement
-- Another feature idea
+- Add the smooth scrolling funtion to links which lead to different sections of the same (current) page (Home and Training).
+- Add interactivity to the Home gallery (the option to open full-size images).
+- Enable the "Read more" anchors in Training to open the additional information as "inline" dropdown text rather than in pop-ups.   
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The languages, frameworks, libraries, and other tools used during this project: 
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML5 for page basic structure and content;
+- CSS3 for content styling;
+- [Bootstrap](https://getbootstrap.com/) was used for grid layout, responsive design, Navbar and modal implementation, and some additional styling (Jumbotron, buttons);
+- Fonts were obtained from [Google Fonts](https://fonts.google.com/);
+- Icons were obtained from [Font Awesome](https://fontawesome.com/);
+- The "perfect background image" CSS code snippet was obtained from [CSS-tricks](https://css-tricks.com/).
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing has a threefold objective:
+- verify that the intended page structure is in place (text and fonts, images, frames);
+- verify that the interactive elements are fully functional as intended (menus, links, buttons, maps, forms);
+- verify that the implemented design is responsive as intended.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The test procedures and results are detailed in a separate document.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+   #TBA
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+   
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+
+- The photos used in this site were obtained from [Pexels](https://www.pexels.com/) (Gallery and About) and [Peakpx](http://www.peakpx.com/) (Contact); the remaining photos are from a personal collection.
+- The Location map was obtained from [Google Maps](https://www.google.com/maps)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my dogs Dona and Fiftie (pictured on the Home and Training pages), from our trainer Ana, and from my friend Doris who first introduced me to Positive Reinforcement Training.
