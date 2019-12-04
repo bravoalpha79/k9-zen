@@ -6,7 +6,7 @@ Traditional dog training usually relies on "carrot-and-stick" methods i.e. the c
 
 On the other hand, K9Zen (appyling PRT) relies solely on positive motivation to steer the dog towards desired behavioural patterns.
 
-**_"K9Zen Training school - because your favourite snout deserves the best."_**
+**_"K9Zen Training School - because your favourite snout deserves the best."_**
 
 
  
@@ -63,7 +63,7 @@ Taking into consideration the above requirements, and bearing in mind the three-
 
 This basic structure is mirrored by a top-fixed navigation bar in the header.
 
-The footer contains the links to the school's social media pages, as well as copyright information.
+The footer contains the links to the School's social media pages, as well as copyright information.
 
 Four wireframes were created (using [wireframe.cc](wireframe.cc)) during the initial UI design phase:
 
@@ -101,7 +101,7 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
 #### Training page
 - The "Read more" anchor below each training type description opens a pop-up (modal) containing details about the selected training type.
 
-  _Note: All pop-ups can be closed by clicking anywhere outside the pop-up area, clicking on the Close icon ("x") in the top right corner of the pop-up, or clicking on the Close button (Cancel button for the Message form) in the bottom right corner of the pop-up._ 
+  _Note: All pop-ups can be closed by clicking anywhere outside the pop-up area, by clicking on the Close icon ("x") in the top right corner of the pop-up, or by clicking on the Close button (Cancel button for the Message form) in the bottom right corner of the pop-up._ 
 
 - The map in the "Where we train" section is fully interactive (embedded Google Maps iframe). 
 
@@ -152,7 +152,7 @@ The test procedures and results are detailed in a separate document.
 ### Media
 
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/) (Gallery and About) and [Peakpx](http://www.peakpx.com/) (Contact); the remaining photos are from a personal collection.
-- The Location map was obtained from [Google Maps](https://www.google.com/maps)
+- The Location map was obtained from [Google Maps](https://www.google.com/maps).
 
 ### Acknowledgements
 
