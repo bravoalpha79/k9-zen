@@ -1,12 +1,12 @@
 # K9Zen
 
-K9Zen (a wordplay on "canine zen") is a website for a fictional dog training school of the same name. What makes the K9Zen Training School special is its use of the Positive Reinforcement Training (PRT) method.
+K9Zen (shorthand for "canine zen") is a website for a fictional dog training school of the same name. What makes the K9Zen Training School special is its use of the Positive Reinforcement Training (PRT) method.
 
 Traditional dog training usually relies on "carrot-and-stick" methods i.e. the combined use of rewards and punishments (or "corrections") to induce desirable and prevent/correct unwanted dog behaviour. However, while appearing effective on the short term, punishment and the use of force have a negative impact on the dog-owner relationship and may also produce unwanted side effects, such as development of anxiety or reactiveness in the dog. 
 
 On the other hand, K9Zen (appyling PRT) relies solely on positive motivation to steer the dog towards desired behavioural patterns.
 
-*_"K9Zen Training school - because your favourite snout deserves the best."_*
+**_"K9Zen Training school - because your favourite snout deserves the best."_**
 
 
  
@@ -73,9 +73,9 @@ Four wireframes were created (using [wireframe.cc](wireframe.cc)) during the ini
 [Dropdown Menu](https://wireframe.cc/SgXwmQ)
 
 _Note: the final design departs from the initial wireframes in several aspects, in particular:_   
-_- the trainers' bios and photos have been moved to a separate page (About), while the existing About page has been renamed "Training" and now contains only training information,_   
-_- the navigation bar has been updated accordingly (four links),_
-_- the training types information has been moved from Home to Training,_   
+_- the trainers' bios and photos have been moved to a separate page (About), while the existing About page has been renamed "Training" and now contains only training information;_   
+_- the navigation bar and its dropdown menu have been updated accordingly;_   
+_- the training types information has been moved from Home to Training;_  
 _- the Contact page has been completely redesigned for a simpler and cleaner user experience._
 
 ## Features
@@ -83,8 +83,8 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
  
 ### Existing Features
 
-#### Navbar
-- The top-fixed navbar provides the user with links to navigate to any of the four available pages; the colour coding in the navbar (darker text colour for the active page link) provides the user with a visual indication of the current page;
+#### Navigation bar
+- The top-fixed navigation bar provides the user with links to navigate to any of the four available pages; the colour coding in the navbar (darker text colour for the active page link) provides the user with a visual indication of the current page;
 
 - The Training link opens a dropdown menu which enables the user to navigate directly to individual sections containing specific information about training;
 
@@ -145,7 +145,7 @@ The test procedures and results are detailed in a separate document.
    #TBA
 
 
-   
+
 
 ## Credits
 
