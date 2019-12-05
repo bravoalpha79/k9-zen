@@ -30,10 +30,10 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="index.html#prt">Why K9Zen?</a>
-                            <hr />
+							<hr />
 							<a class="dropdown-item" href="training.html">What we offer</a>
-							<a class="dropdown-item" href="training.html#location">Where we train</a>
-							<a class="dropdown-item" href="training.html#timetable">Class timetable</a>
+							<a class="dropdown-item" href="#where">Where we train</a>
+							<a class="dropdown-item" href="#when">Class timetable</a>
 						</div>
 					</li>
 					<li class="nav-item">
@@ -45,12 +45,12 @@
 				</ul>
 			</div>
 		</nav>
-        <!-- /Navbar-->
+		<!-- /Navbar-->
 	</header>
 	<main>
 		<div class="container-fluid training-container">
-			<div class="container" id="offer">
-				<section class="row frame--main offer-frame">
+			<section class="container" id="offer">
+				<div class="row frame--main offer-frame">
 					<div class="col-12 offer-header">
 						<h2>What we offer</h2>
 					</div>
@@ -67,21 +67,21 @@
 							<p>
 								There is much more to tricks than just showing off.
 							</p>
-                            <span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#tricksModal">Read more</a></span>
+							<span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#tricksModal">Read more</a></span>
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-3 trg">
 							<h4><i class="fas fa-paw"></i>Individual Training</h4>
 							<p>
 								Same curriculum as classes but more flexibility.
 							</p>
-                            <span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#individualModal">Read more</a></span>
+							<span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#individualModal">Read more</a></span>
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-3 trg">
 							<h4><i class="far fa-comments"></i>Consultation</h4>
 							<p>
-                                When a particular issue requires additional focus.
+								When a particular issue requires additional focus.
 							</p>
-                            <span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#consultationModal">Read more</a></span>
+							<span class="read--more"><a href="#" class="inline--anchor" data-toggle="modal" data-target="#consultationModal">Read more</a></span>
 						</div>
 						<div class="row justify-content-center trg-more-info">
 							<div class="col-11">
@@ -97,28 +97,34 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="row frame--main" id="location">
+				</div>
+			</section>>
+			<section class="container" id="where">
+				<div class="row frame--main location">
 					<div class="col-12 location-header">
 						<h2>Where we train</h2>
 					</div>
 					<div class="col-md-4 location-info">
 						<p>We are located at:</p>
 						<address><strong>Trg bana J. Jelačića 45, Zagreb</strong></address>
-							<p>
-                                Situated in an urban environment, yet sufficiently secure from heavy traffic and
-								crowds
-								of people, our training ground provides an ideal location for all your training
-								needs.<br />
+						<p>
+							Situated in an urban environment, yet sufficiently secure from heavy traffic and
+							crowds
+							of people, our training ground provides an ideal location for all your training
+							needs.<br />
                                 Public transportation nearby.<br />
                                 Private parking space available.
 							<p>
 					</div>
 					<div class="col-md-8 embed-responsive embed-responsive-16by9 location-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.9267725687564!2d15.975725015775517!3d45.812724918140326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fdd9101e27%3A0xb058b7bb640effe3!2sTrg%20bana%20Josipa%20Jela%C4%8Di%C4%87a%2045%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1575314824458!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.9267725687564!2d15.975725015775517!3d45.812724918140326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fdd9101e27%3A0xb058b7bb640effe3!2sTrg%20bana%20Josipa%20Jela%C4%8Di%C4%87a%2045%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1575314824458!5m2!1sen!2shr"
+							width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
 					</div>
-				</section>
-				<section class="row justify-content-center frame--main" id="timetable">
+				</div>
+			</section>
+			<section class="container" id="when">
+				<div class="row justify-content-center frame--main timetable">
 					<div class="col-12 timetable-header">
 						<h2>Class Timetable</h2>
 					</div>
@@ -164,16 +170,16 @@
 					</div>
 					<div class="col-10 timetable-important">
 						<p class="frame--info">
-							<u>Important note:</u> You are most welcome to visit and observe any of our
-							classes. However,
-							<strong>if you'd like to visit with your dog, please <a class="inline--anchor" href="contact.html">call us</a> in
-								advance</strong>,
+							<strong><u>Important note:</u></strong> You are most welcome to visit and observe any of our
+							classes. If you'd like to visit <u>with your dog,</u> please <u><a class="inline--anchor"
+									href="contact.html">call us</a> in
+								advance</u>,
 							as some dogs in our classes may be reactive to outside visitors. We thank you for your
 							understanding!
 						</p>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		</div>
 	</main>
 	<!-- Modals - code copied from Bootstrap documentation and adapted -->
@@ -186,146 +192,146 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
 							</button>
-						</div>
-						<div class="modal-body custom--modal-body">
-							<p>
-								From leash walking, stopping, heeling and recall to "speaking", staying and releasing
-								items - this course covers everything your dog needs to master for everyday
-								interactions.
-							</p>
-							<h5>Duration: 8 weeks (2x / week)</h5>
-							<h5>Price: HRK 1500</h5>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
+				</div>
+				<div class="modal-body custom--modal-body">
+					<p>
+						From leash walking, stopping, heeling and recall to "speaking", staying and releasing
+						items - this course covers everything your dog needs to master for everyday
+						interactions.
+					</p>
+					<h5>Duration: 8 weeks (2x / week)</h5>
+					<h5>Price: HRK 1500</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
 			</div>
 		</div>
-		<div class="modal flipXin" id="tricksModal" tabindex="-1" role="dialog" aria-labelledby="tricksModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content custom--modal-bg">
-					<div class="modal-header">
-						<h5 class="modal-title" id="tricksModalLabel">Tricks class</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	</div>
+	<div class="modal flipXin" id="tricksModal" tabindex="-1" role="dialog" aria-labelledby="tricksModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content custom--modal-bg">
+				<div class="modal-header">
+					<h5 class="modal-title" id="tricksModalLabel">Tricks class</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
-					</div>
-					<div class="modal-body custom--modal-body">
-						<p>
-							While the two of you are not expected to perform in a circus group after this course
-							(but you could if you chose to!), tricks training strengthens the owner-dog relationship
-							and enhances your dog's focus and confidence.
-						</p>
-						<h5>Duration: 4 weeks (2x / week)</h5>
-						<h5>Price: HRK 1000</h5>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
+				</div>
+				<div class="modal-body custom--modal-body">
+					<p>
+						While the two of you are not expected to perform in a circus group after this course
+						(but you could if you chose to!), tricks training strengthens the owner-dog relationship
+						and enhances your dog's focus and confidence.
+					</p>
+					<h5>Duration: 4 weeks (2x / week)</h5>
+					<h5>Price: HRK 1000</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
-		<div class="modal flipYin" id="individualModal" tabindex="-1" role="dialog" aria-labelledby="individualModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content custom--modal-bg">
-					<div class="modal-header">
-						<h5 class="modal-title" id="individualModalLabel">Individual training</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	</div>
+	<div class="modal flipYin" id="individualModal" tabindex="-1" role="dialog" aria-labelledby="individualModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content custom--modal-bg">
+				<div class="modal-header">
+					<h5 class="modal-title" id="individualModalLabel">Individual training</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
-					</div>
-					<div class="modal-body custom--modal-body">
-						<p>
-							You prefer two-on-one interaction rather than group work? Or perhaps our class schedule is
-							incompatible with yours? Don't worry, we've got you covered!
-							Individual training at our training grounds or in your backyard or neighbourhood park -
-							the choice is all yours.
-						</p>
-						<h5>Duration: varies</h5>
-						<h5>Price: varies</h5>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
+				</div>
+				<div class="modal-body custom--modal-body">
+					<p>
+						You prefer two-on-one interaction rather than group work? Or perhaps our class schedule is
+						incompatible with yours? Don't worry, we've got you covered!
+						Individual training at our training grounds or in your backyard or neighbourhood park -
+						the choice is all yours.
+					</p>
+					<h5>Duration: varies</h5>
+					<h5>Price: varies</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
-		<div class="modal fade" id="consultationModal" tabindex="-1" role="dialog"
-			aria-labelledby="consultationModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content custom--modal-bg">
-					<div class="modal-header">
-						<h5 class="modal-title" id="consultationModalLabel">Consultation</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	</div>
+	<div class="modal fade" id="consultationModal" tabindex="-1" role="dialog" aria-labelledby="consultationModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content custom--modal-bg">
+				<div class="modal-header">
+					<h5 class="modal-title" id="consultationModalLabel">Consultation</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
-					</div>
-					<div class="modal-body custom--modal-body">
-						<p>
-							You've encountered a problem and are not sure if it is a problem to begin with? Not sure
-							how to address some specific behaviour of your dog? Or perhaps you need advice on food
-							or training equipment? We're here to support you with our extensive experience.
-						</p>
-						<h5>Duration: varies</h5>
-						<h5>Price: varies</h5>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
+				</div>
+				<div class="modal-body custom--modal-body">
+					<p>
+						You've encountered a problem and are not sure if it is a problem to begin with? Not sure
+						how to address some specific behaviour of your dog? Or perhaps you need advice on food
+						or training equipment? We're here to support you with our extensive experience.
+					</p>
+					<h5>Duration: varies</h5>
+					<h5>Price: varies</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
-		<!-- /Modals -->
-		<footer class="container-fluid footer-bar">
-			<div class="row">
-				<div class="col">
-					<div class="social-media">
-						<h5>Follow us:</h5>
-						<ul class="list-inline">
-							<li class="list-inline-item social-link">
-								<a target="_blank" href="https://www.facebook.com">
-									<i class="fab fa-facebook-f" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span></a>
-							</li>
-							<li class="list-inline-item social-link">
-								<a target="_blank" href="https://www.twitter.com">
-									<i class="fab fa-twitter" aria-hidden="true"></i>
-									<span class="sr-only">Twitter</span>
-								</a>
-							</li>
-							<li class="list-inline-item social-link">
-								<a target="_blank" href="https://www.instagram.com">
-									<i class="fab fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-								</a>
-							</li>
-							<li class="list-inline-item social-link">
-								<a target="_blank" href="https://www.youtube.com">
-									<i class="fab fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">YouTube</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="copyright">
-						<small>Copyright 2019 by bravoalpha79 - for educational purposes</small>
-					</div>
+	</div>
+	<!-- /Modals -->
+	<footer class="container-fluid footer-bar">
+		<div class="row">
+			<div class="col">
+				<div class="social-media">
+					<h5>Follow us:</h5>
+					<ul class="list-inline">
+						<li class="list-inline-item social-link">
+							<a target="_blank" href="https://www.facebook.com">
+								<i class="fab fa-facebook-f" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span></a>
+						</li>
+						<li class="list-inline-item social-link">
+							<a target="_blank" href="https://www.twitter.com">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item social-link">
+							<a target="_blank" href="https://www.instagram.com">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item social-link">
+							<a target="_blank" href="https://www.youtube.com">
+								<i class="fab fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<small>Copyright 2019 by bravoalpha79 - for educational purposes</small>
 				</div>
 			</div>
-		</footer>
+		</div>
+	</footer>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-		</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-		</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-		</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

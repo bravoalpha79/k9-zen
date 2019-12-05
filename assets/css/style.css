@@ -186,7 +186,7 @@ h6 {
     text-align: center;    
 }
 
-#location {
+.location {
     padding: 12px;
     margin-top: 16px;
 }
@@ -195,7 +195,7 @@ h6 {
    margin: auto auto;
 }
 
-#timetable {
+.timetable {
     margin-top: 16px;
     padding: 18px;
 }
@@ -219,7 +219,7 @@ h6 {
 
 .timetable-important p {
     margin-top: 24px;
-    padding: 12px;
+    padding: 16px;
     text-align: center;
 }
 
@@ -302,16 +302,17 @@ h6 {
 }
 
 .about-us {
-    margin: 12px;
-    padding: 16px 8px 8px;
+    padding: 16px 16px 8px;
 }
 
 .about-jane,
 .about-john,
 .learn-more {
-    margin: 8px;
-    padding: 16px;
+    margin: 0px 8px 24px;
+    padding: 24px 8px;
 }
+
+
 
 .about-jane h4, 
 .about-john h4 {
@@ -322,12 +323,13 @@ h6 {
 .john-image img {
     height: 100%;
     width: 100%;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 .learn-more p {
     text-align: center;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 /* ----------------- Footer ------------------ */
