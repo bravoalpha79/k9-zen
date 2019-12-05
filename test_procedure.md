@@ -6,10 +6,10 @@ This document details the test procedure for the official deployment of the _K9Z
 
 Based upon the fourfold objective of the testing process, the test steps have been divided into four groups:
 
-1. User/Owner Requirement tests, labelled **UR-[test step number]**;
-2. Structural Integrity tests, labelled **SI-[test step number]**;
-3. Interactive Components tests. (labelled **IC-[test step ID]**;
-4. Responsive Design tests, labelled **RD-[test step ID]**.
+1. User/Owner Requirement tests, labelled **UR-[test number]**;
+2. Structural Integrity tests, labelled **SI-[test number]**;
+3. Interactive Components tests, labelled **IC-[test number]**;
+4. Responsive Design tests, labelled **RD-[test number]**.
 
 
 ## Test Procedure
@@ -65,40 +65,40 @@ _Note: the full functionality/interactivity of the Message Submission Form is ch
 **UR-7a**:   
 Check that the option to visit/audit any training class is presented to the user.
 
-**UR-7b**
+**UR-7b**:  
 On the **_Training_** page, check that the user is informed about the requirement to contact the School in advance if visiting/auditing a class with her/his dog.
 
 
 
 ### Structural Integrity
 
-**SI-1**   
+**SI-1**:   
 Check that fonts are rendered properly:
 - on the **_Home_** page, the School title font is displayed correctly;
 - on all pages, the section headings' sizes are homogenous;
 - on all pages, body text size is homogenous.
 
-**SI-2**  
+**SI-2**:  
 Check that the Header/Navigation section is rendered properly on all pages:
 - the Navbar "brand" ("_K9Zen_") is displayed with the correct font;
 - the Navbar items _Home_, _Training_, _Contact_ and _About_ are displayed correctly.
 
 _Note: the full functionality of the Navbar is tested in Interactive Components tests._ 
 
-**SI-3**  
+**SI-3**:  
 Check that the Footer section is rendered properly on all pages:
 - the social media link icons - Facebook, Twitter, Instagram, Youtube - are displayed properly;
 - copyright information is displayed.
 
 _Note: the full functionality of the social media links is tested in Interactive Components tests._
 
-**SI-4**  
+**SI-4**:  
 Check that section frames, margins/paddings and borders are homogenous on all pages.
 
-**SI-5**  
+**SI-5**:  
 Check that the display of images, icons and embedded objects is complete and correct within the overall page structure.  
 
-**SI-6**  
+**SI-6**:  
 Check that the textual parts contain no typos.
 
 
@@ -106,7 +106,7 @@ Check that the textual parts contain no typos.
 
 #### Navigation
 
-**IC-1**  
+**IC-1**:  
 From **_Home_** page:
 1. In the Navbar, click on the Navbar "brand" (_"K9Zen"_). Check that the Home page opens.
 2. In the Navbar, click on the _Home_ field. Check that the Home page opens.
@@ -119,31 +119,31 @@ From **_Home_** page:
 4. In the Navbar, click on the _Contact_ field. Check that the Contact page opens.
 5. In the Navbar, click on the _About_ field. Check that the About page opens.
 
-**IC-2**  
-From **_Training_** page, repeat steps 1 through 5 of **IC-1**.
+**IC-1a**:  
+From **_Training_** page, repeat actions 1 through 5 of **IC-1**.
 
-**IC-3**  
-From **_Contact_** page, repeat steps 1 through 5 of **IC-1**.
+**IC-1b**:  
+From **_Contact_** page, repeat actions 1 through 5 of **IC-1**.
 
-**IC-4**  
-From **_About__** page, repeat steps 1 through 5 of **IC-1**.
+**IC-1c**:  
+From **_About__** page, repeat actions 1 through 5 of **IC-1**.
 
 
 
 #### Footer links
 
-**IC-5**  
+**IC-2**:  
 From **_Home_** page:
 1. In the footer, click on the Facebook icon. Check that the Facebook homepage opens.
 2. In the footer, click on the Twitter icon. Check that the Twitter homepage opens.
 3. In the footer, click on the Instagram icon. Check that the Instagram homepage opens.
 4. In the footer, click on the YouTube icon. Check that the Youtube homepage opens.
 
-**IC-6** 
-From **_Training_** page, repeat steps 1 through 4 of **IC-5**.
+**IC-2a**:   
+From **_Training_** page, repeat actions 1 through 4 of **IC-2**.
 
-**IC-5** 
-From **_Contact_** page, repeat steps 1 through 4 of **IC-5**.
+**IC-2b**:  
+From **_Contact_** page, repeat actions 1 through 4 of **IC-2**.
 
-**IC-5**
-From **_About__** page, repeat steps 1 through 4 of **IC-1**.
+**IC-2c**:  
+From **_About__** page, repeat actions 1 through 4 of **IC-2**.

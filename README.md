@@ -138,7 +138,7 @@ Testing has a fourfold objective:
 - verify that the interactive elements are fully functional as intended (menus, links, buttons, maps, forms);
 - verify that the implemented design is responsive as intended.
 
-The test procedures and results are detailed in [a separate document](test_procedure.md).
+The test procedures and results are detailed in a [separate document](test_procedure.md).
 
 
 ## Deployment
