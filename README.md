@@ -65,7 +65,7 @@ This basic structure is mirrored by a top-fixed navigation bar in the header.
 
 The footer contains the links to the School's social media pages, as well as copyright information.
 
-Four wireframes were created (using [wireframe.cc](https://wireframe.cc/) during the initial UI design phase:
+Four wireframes were created (using [wireframe.cc](https://wireframe.cc/)) during the initial UI design phase:
 
 [Home page](https://wireframe.cc/iC7yCU)   
 [Training](https://wireframe.cc/dQPuJ0)  
@@ -138,7 +138,7 @@ Testing has a fourfold objective:
 - verify that the interactive elements are fully functional as intended (menus, links, buttons, maps, forms);
 - verify that the implemented design is responsive as intended.
 
-The test procedures and results are detailed in a separate document.
+The test procedures and results are detailed in [a separate document](test_procedure.md).
 
 
 ## Deployment
