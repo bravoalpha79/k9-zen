@@ -83,6 +83,9 @@ h6 {
     width: 70%;
 }
 
+.navbar-toggler {
+    border: none;
+}
 
 /* ----------------- Hero & Callout ------------------ */
 
@@ -357,6 +360,11 @@ h6 {
     width: 40px;
     margin: 0px 15px 5px;
     
+}
+
+.social-link:hover {
+    background-color: #e7d2b7;
+    border-radius: 8px;
 }
 
 .social-link a i {
