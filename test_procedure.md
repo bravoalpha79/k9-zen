@@ -158,7 +158,7 @@ From **_About__** page, repeat actions 1 through 4 of **IC-2**.
 **IC-3**:  
 On **_Home_** page:
 1. Click on the _Discover us!_ button. Check that the browser navigates to the section titled _"Why K9Zen?"_.
-2. Click on the _Let's train!_ button. Check that the browser navigates to the **_Training_** page.
+2. Click on the _Let's train!_ button. Check that the browser navigates to **_Training_** page.
 
 **IC-4**:  
 On **_Contact_** page:
@@ -171,6 +171,89 @@ Check that the modal can be closed by clicking outside the modal area.
 
 #### Anchors
 
-#TBA
+**IC-5**:  
+On **_Training_** page:
+1. At the bottom of the "Obedience Class" column/section, click on _Read more_. Check that a modal opens with details on Obedience training.  
+2. At the bottom of the "Tricks Class" column/section, click on _Read more_. Check that a modal opens with details on Tricks training. 
+3. At the bottom of the "Individual Training" column/section, click on _Read more_. Check that a modal opens with details on Individual training.
+4. At the bottom of the "Consultation" column/section, click on _Read more_. Check that a modal opens with details on Consultation.
+
+**IC-6**:  
+On **_Training_** page:
+1. In the "What we offer" section, click on the _location_ anchor. Check that the browser navigates to the appropriate section on the page.
+2. In the "What we offer" section, click on the _timetable_ anchor. Check that the browser navigates to the appropriate section on the page.
+3. In the "What we offer" section, click on the _contact us_ anchor. Check that the browser navigates to **_Contact_** page.
+3. In the "Class Timetable" section, click on the _call us_ anchor. Check that the browser navigates to **_Contact_** page.
+
+**IC-7**  
+At the bottom of **_About_** page, click on the _contact us_ anchor. Check that the browser navigates to **_Contact_** page.
 
 
+#### Map
+
+**IC-8**:  
+On **_Training_** page, check that the embedded map is fully interactive:
+1. Map zoom in/out is available.
+2. Map panning is available.
+3. Toggle satellite/map view is available
+4. Clicking on "Directions" or "View larger map" opens Google Maps in a new browser window.
+
+#### Form
+
+**IC-9**:  
+On **_Contact_** page, click on the _Message_ button. Check that a modal opens, containing the "Message us" submission form.
+
+**IC-9a**:  
+Check that the message form contains the following items:
+- a Name field (labelled as required),
+- an Email field (labelled as required),
+- a Phone number field (with placeholder "optional"),
+- a Message text area/field (labelled as required), 
+- a Cancel button, and
+- a Send message button.
+
+**IC-9b**:  
+With Name field empty, click _Send message_. Check that a valid warning is raised about the Name field and the form remains open.
+
+**IC-9c**:  
+With Name field filled, input an incomplete email address into the Email field:
+- no address,
+- an address without "@", and
+- an address without any characters following "@"
+
+and click _Send message_. Check that for each of the above scenarios,a valid warning is raised about the Email field and the form remains open.
+
+**IC-9d**:  
+With Name and Email fields correctly filled and Message field empty, try to click _Send message_. Check that:
+1. no warning is raised about the Phone field (as the field is optional), and
+2. a valid warning is raised about the Message field and the form remains open. 
+
+**IC-9e**:  
+With all required fields correctly filled, click on _Send message_. Check that no warning is raised and the modal closes.
+
+_Note: as no back-end processing takes place (this is outside the scope of the project), the only effect of clicking_ Send message _will be the closure of the modal. No data is transmitted and no message is sent._
+
+**IC-9f**:  
+Click on the _Message_ button to reopen the "Message us" modal.   
+In the bottom right corner of the modal, click on the _Cancel_ button. Check that the modal closes.
+
+
+
+### Responsive Design
+
+**RD-1**:
+Using Google Chrome Development Tools in Responsive view, check the rendering and layout of each of the four pages at the following width breakpoints:
+1. below 576px;
+2. at and above 576px but below 768px;
+3. at and above 768px but below 992px;
+4. at and above 992px but below 1200px;
+5. at and above 1200px.
+
+**RD-2**:
+Using Google Chrome Development Tools in Device view, check the rendering and layout of each of the four pages on the following emulated devices:
+1. iPad Pro (large screen)
+2. Kindle Fire HDX (medium screen)
+3. Galaxy S5 (extra small screen)
+
+**RD-3**:
+Check the rendering and layout of each of the four pages on a physical device of your choice.
