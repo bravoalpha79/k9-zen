@@ -186,6 +186,10 @@ h6 {
     text-align: center;    
 }
 
+#where {
+    visibility: hidden;
+}
+
 .location {
     padding: 12px;
     margin-top: 16px;

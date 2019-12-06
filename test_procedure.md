@@ -6,7 +6,7 @@ This document details the test procedure for the official deployment of the _K9Z
 
 Based upon the fourfold objective of the testing process, the test steps have been divided into four groups:
 
-1. User/Owner Requirement tests, labelled **UR-[test number]**;
+1. User Requirement tests, labelled **UR-[test number]**;
 2. Structural Integrity tests, labelled **SI-[test number]**;
 3. Interactive Components tests, labelled **IC-[test number]**;
 4. Responsive Design tests, labelled **RD-[test number]**.
@@ -14,7 +14,7 @@ Based upon the fourfold objective of the testing process, the test steps have be
 
 ## Test Procedure
 
-### User/Owner Requirements
+### User Requirements
 
 **UR-1a**:  
 On the **_Home_** page, check that information on the School's training method and philosophy is available.
@@ -101,6 +101,9 @@ Check that the display of images, icons and embedded objects is complete and cor
 **SI-6**:  
 Check that the textual parts contain no typos.
 
+**SI-7**:  
+Using a different web browser, repeat tests SI-1 through SI-5.
+
 
 ### Interactive Components
 
@@ -134,10 +137,10 @@ From **_About__** page, repeat actions 1 through 5 of **IC-1**.
 
 **IC-2**:  
 From **_Home_** page:
-1. In the footer, click on the Facebook icon. Check that the Facebook homepage opens.
-2. In the footer, click on the Twitter icon. Check that the Twitter homepage opens.
-3. In the footer, click on the Instagram icon. Check that the Instagram homepage opens.
-4. In the footer, click on the YouTube icon. Check that the Youtube homepage opens.
+1. In the footer, click on the Facebook icon. Check that the Facebook homepage opens in a new browser window.
+2. In the footer, click on the Twitter icon. Check that the Twitter homepage opens in a new browser window.
+3. In the footer, click on the Instagram icon. Check that the Instagram homepage opens in a new browser window.
+4. In the footer, click on the YouTube icon. Check that the Youtube homepage opens in a new browser window.
 
 **IC-2a**:   
 From **_Training_** page, repeat actions 1 through 4 of **IC-2**.
@@ -147,3 +150,27 @@ From **_Contact_** page, repeat actions 1 through 4 of **IC-2**.
 
 **IC-2c**:  
 From **_About__** page, repeat actions 1 through 4 of **IC-2**.
+
+
+
+#### Buttons and modals
+
+**IC-3**:  
+On **_Home_** page:
+1. Click on the _Discover us!_ button. Check that the browser navigates to the section titled _"Why K9Zen?"_.
+2. Click on the _Let's train!_ button. Check that the browser navigates to the **_Training_** page.
+
+**IC-4**:  
+On **_Contact_** page:
+1. Click on the _Visit_ button. Check that a modal opens, containing information about visiting.  
+Check that the modal can be closed by clicking on the Close button in the bottom right corner of the modal.
+2. Click on the _Call_ button. Check that a modal opens, containing call times information and a phone number.  
+Check that the modal can be closed by clicking on the "x" icon in the top right corner of the modal.
+3. Click on the _Message_ button. Check that a modal opens, containing a message submission form.  
+Check that the modal can be closed by clicking outside the modal area.
+
+#### Anchors
+
+#TBA
+
+

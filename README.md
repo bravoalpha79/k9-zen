@@ -12,15 +12,36 @@ On the other hand, K9Zen (applying PRT) relies solely on positive motivation to 
  
 ## UX
  
-The website is intended primarily for dog owners who are looking to train their dog, especially those looking to provide the dog with a different-than-mainstream training approach. It is tailored to provide them with all the essential information they might need to decide if K9Zen is the right school for their dog and for them.
+### User stories
+
+The website is intended primarily for dog owners who are looking to train their dog, especially those looking to provide the dog with a different-than-mainstream training approach. 
 
 A second potential user group are visitors (dog owners or not) who have heard about K9Zen and are looking for more information about the school, its location, trainers etc.
 
-A third hypothetical group would be users who are simply looking for more information on PRT. For this group, the information found on the website itself will be relatively limited as the PRT philosophy is not discussed in detail on the pages. However, they can make use of the Contact functionalities on the website to obtain the information they require.
+A third hypothetical group would be users who are simply looking for more information on PRT. 
 
-As a result, the following requirements were set for the website:
+The following relevant user stories have been identified:
 
-### User Requirements
+- As a user, I want to find out about the school's training methods in order to decide whether they are right for my dog.
+- As a user, I want to find out about the training options/courses provided in order to choose the most appropriate one for me and my dog.
+- As a user, I want to find out about the price of training options in order to compare with other schools and to decide whether I can afford it.
+- As a user, I want to find out about the school's location in order to decide whether it is convenient for my routine.
+- As a user, I want to find out about the training schedule in order to decide whether it can fit into my schedule. 
+- As a user, I want to find out about the trainers and their references.
+- As a user, I want to be able to contact the school via telephone or email, in order to obtain additional information or to arrange start of training.  
+- As a user, I want to find out more about PRT.
+
+
+- As owner, I want to attract dog owners to choose my school and my services to train their dog.
+- As owner, I want to present PRT as a more positive training method compared to mainstream training.
+- As owner, I want to let the user know that they are welcome to contact me on any school- or PRT-related topic.
+- As owner, I want to present the user with the option to visit/audit any training class in person.
+- As owner, I want to request the user to notify me if advance if visiting/auditing with their dog.
+- As owner, I want to provide the user with a message form rather than my email address.
+
+### Requirements
+
+As a result of the above considerations, the following requirements were set for the website:
 
 1. A user shall be able to obtain relevant and up-to-date information about the school, namely:
     - training method and philosophy,
@@ -39,16 +60,13 @@ As a result, the following requirements were set for the website:
 
 4. A user shall be able to contact the school personnel in order to obtain additional information on any school-relevant topic.
 
+5.  A user shall be provided with the information about what makes K9Zen training different than "mainstream" training.
 
- ### Owner requirements
-
-1.  A user shall be provided with the information about what makes K9Zen training different than "mainstream" training.
-
-2.  A user shall be provided with the following contact details:
+6.  A user shall be provided with the following contact details:
     - a phone number (with established contact times), and
     - a contact form for email communication.
 
-3. A user shall be provided with the additional contact option of visiting (auditing) any class training session.
+7. A user shall be provided with the additional contact option of visiting (auditing) any class training session.
     - A user shall be provided with an additional caveat when visiting with their dog.
 
 
@@ -114,6 +132,7 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
       _Note: Upon clicking "Send message", the message form will perform semantic and completeness checks of the fields labelled as required. However, since no back-end processing takes place (as it is outside the scope of this project), the "Send message" button will simply close the pop-up without actually sending the entered information._
 
 ### Features Left to Implement
+- On the About page, add a separate section about PRT history, philosophy and methods in detail
 - Add the smooth scrolling function to links which lead to different sections of the same (current) page (Home and Training).
 - Add interactivity to the Home gallery (the option to open full-size images).
 - Enable the "Read more" anchors in Training to open the additional information as "inline" dropdown text rather than pop-ups.   
@@ -123,11 +142,14 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
 The languages, frameworks, libraries, and other tools used during this project: 
 
 - HTML5 for page basic structure and content;
-- CSS for content styling;
+- CSS3 for content styling;
 - [Bootstrap](https://getbootstrap.com/) was used for grid layout, responsive design, navigation bar and modal implementation, and some additional styling (Jumbotron, buttons);
 - Fonts were obtained from [Google Fonts](https://fonts.google.com/);
 - Icons were obtained from [Font Awesome](https://fontawesome.com/);
-- The "perfect background image" CSS code snippet was obtained from [CSS-tricks](https://css-tricks.com/).
+- [W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML and CSS code;
+- [W3schools.com Color Converter](https://www.w3schools.com/colors/colors_converter.asp) was used to convert colours between default, HEX and RGB;
+- Google Chrome Developer Tools were used for debugging and as a styling aid.
+
 
 
 ## Testing
@@ -150,11 +172,14 @@ The test procedures and results are detailed in a [separate document](test_proce
 
 ## Credits
 
+### Code
+- The "perfect background image" CSS code snippet (used for styling of background images on all pages) was obtained from [CSS-tricks](https://css-tricks.com/);
+
 ### Media
 
-- The photos used in this site were obtained from [Pexels](https://www.pexels.com/) (Gallery and About) and [Peakpx](http://www.peakpx.com/) (Contact); the remaining photos are from a personal collection.
+- The photos used in this site were obtained from [Pexels](https://www.pexels.com/) (for the gallery and About) and [Peakpx](http://www.peakpx.com/) (for Contact); the remaining photos are from a personal collection.
 - The Location map was obtained from [Google Maps](https://www.google.com/maps).
 
 ### Acknowledgements
 
-- I received inspiration for this project from my dogs Dona and Fiftie (pictured on the Home and Training pages), from our trainer Ana, and from my friend Doris who first introduced me to Positive Reinforcement Training.
+- I received inspiration for this project from my dogs Dona and Fiftie (pictured on the Home and Training page backgrounds), from our trainer Ana, and from my friend Doris who first introduced me to Positive Reinforcement Training.
