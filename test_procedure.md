@@ -86,7 +86,7 @@ _Note: the full functionality of the Navbar is tested in Interactive Components 
 
 **SI-3**:  
 Check that the Footer section is rendered properly on all pages:
-- the social media link icons - Facebook, Twitter, Instagram, Youtube - are displayed properly;
+- the social media link icons - Facebook, Twitter, Instagram, YouTube - are displayed properly;
 - copyright information is displayed.
 
 _Note: the full functionality of the social media links is tested in Interactive Components tests._
@@ -139,7 +139,7 @@ From **_Home_** page:
 1. In the footer, click on the Facebook icon. Check that the Facebook homepage opens in a new browser window.
 2. In the footer, click on the Twitter icon. Check that the Twitter homepage opens in a new browser window.
 3. In the footer, click on the Instagram icon. Check that the Instagram homepage opens in a new browser window.
-4. In the footer, click on the YouTube icon. Check that the Youtube homepage opens in a new browser window.
+4. In the footer, click on the YouTube icon. Check that the YouTube homepage opens in a new browser window.
 
 **IC-2a**:   
 From **_Training_** page, repeat actions 1 through 4 of **IC-2**.
@@ -181,16 +181,16 @@ On **_Training_** page:
 On **_Training_** page:
 1. In the "What we offer" section, click on the _location_ anchor. Check that the browser navigates to the appropriate section on the page.
 2. In the "What we offer" section, click on the _timetable_ anchor. Check that the browser navigates to the appropriate section on the page.
-3. In the "What we offer" section, click on the _contact us_ anchor. Check that the browser navigates to **_Contact_** page.
-3. In the "Class Timetable" section, click on the _call us_ anchor. Check that the browser navigates to **_Contact_** page.
+3. In the "What we offer" section, click on the _contact us_ anchor. Check that the browser navigates to Contact page.
+3. In the "Class Timetable" section, click on the _call us_ anchor. Check that the browser navigates to Contact page.
 
 **IC-7**:  
 On **_Contact_** page, click on the _Visit_ button to open the "Visit us" modal. In the modal:
-1. Click on the _training location_ anchor. Check that the browser navigates to the appropriate section on **_Training_** page.
-2. Click on the _class timetable_ anchor. Check that the browser navigates to the appropriate section on **_Training_** page.
+1. Click on the _training location_ anchor. Check that the browser navigates to the appropriate section on Training page.
+2. Click on the _class timetable_ anchor. Check that the browser navigates to the appropriate section on Training page.
 
 **IC-8**:  
-At the bottom of **_About_** page, click on the _contact us_ anchor. Check that the browser navigates to **_Contact_** page.
+At the bottom of **_About_** page, click on the _contact us_ anchor. Check that the browser navigates to Contact page.
 
 
 #### Map
@@ -211,7 +211,7 @@ On **_Contact_** page, click on the _Message_ button. Check that a modal opens, 
 Check that the message form contains the following items:
 - a Name field (labelled as required),
 - an Email field (labelled as required),
-- a Phone number field (with placeholder "optional"),
+- a Phone field (with placeholder "optional"),
 - a Message text area/field (labelled as required), 
 - a Cancel button, and
 - a Send message button.
@@ -225,7 +225,7 @@ With Name field filled, input an incomplete email address into the Email field:
 - an address without "@", and
 - an address without any characters following "@"
 
-and click _Send message_. Check that for each of the above scenarios,a valid warning is raised about the Email field and the form remains open.
+and click _Send message_. Check that for each of the above scenarios, a valid warning is raised about the Email field and the form remains open.
 
 **IC-10d**:  
 With Name and Email fields correctly filled and Message field empty, try to click _Send message_. Check that:
