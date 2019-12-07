@@ -147,8 +147,10 @@ The languages, frameworks, libraries, and other tools used during this project:
 - Fonts were obtained from [Google Fonts](https://fonts.google.com/);
 - Icons were obtained from [Font Awesome](https://fontawesome.com/);
 - [W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML and CSS code;
-- [W3schools.com Color Converter](https://www.w3schools.com/colors/colors_converter.asp) was used to convert colours between default, HEX and RGB;
+- [W3schools.com Color Converter](https://www.w3schools.com/colors/colors_converter.asp) was used to convert colours between default, HEX and RGB for CSS coding purposes;
 - Google Chrome Developer Tools were used for debugging and as a styling aid.
+- [Gitpod](https://www.gitpod.io/) was used as the IDE for development and Git version control;
+- [GitHub](https://github.com/) was used for source code storage, safeguarding and site deployment.
 
 
 
@@ -165,7 +167,12 @@ The test procedures and results are detailed in a [separate document](test_proce
 
 ## Deployment
 
-   #TBA
+   The deployment version of the source code is stored on [GitHub](https://github.com/), in the master branch of [bravoalpha79/k9-zen](https://github.com/bravoalpha79/k9-zen).
+
+   From the master branch, the site has been published using [GitHub Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
+
+   **The live version of the site is located at:**   
+   **https://bravoalpha79.github.io/k9-zen/index.html** 
 
 
 

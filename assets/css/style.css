@@ -189,7 +189,8 @@ h6 {
     text-align: center;    
 }
 
-#where {
+#where,
+#when {
     visibility: hidden;
 }
 
