@@ -89,7 +89,7 @@ h6 {
 
 /* ----------------- Hero & Callout ------------------ */
 
-/*--- "Perfect background image" code snippet copied from CSS-Tricks.com and used for all background images ---*/
+/*--- "Perfect background image" code snippet copied from CSS-Tricks.com and used for background images on all pages ---*/
 .hero-container { 
   background: url("../img/homepage2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -132,8 +132,7 @@ h6 {
 }
 
 .prt-intro {
-    margin: 0 auto;
-    padding: 24px;
+    padding: 18px;
     background-color: rgba(255,228,196,0.8);
 }
 
@@ -166,12 +165,7 @@ h6 {
 }
 
 .offer-frame {
-    padding: 12px 24px;
-}
-
-.trg p {
-    text-align: justify;
-    margin-bottom: 8px;
+    padding: 12px 18px;
 }
 
 .trg i {
@@ -179,6 +173,15 @@ h6 {
     font-size:32px;
     padding-top: 24px;
     padding-bottom: 9px;
+}
+
+.trg h4 {
+    margin-bottom: 0;
+}
+
+.trg p {
+    text-align: justify;
+    margin-bottom: 6px;
 }
 
 .trg-more-info p {
@@ -193,7 +196,7 @@ h6 {
 }
 
 .location {
-    padding: 12px;
+    padding: 16px;
     margin-top: 16px;
 }
 
@@ -329,7 +332,7 @@ h6 {
 
 .learn-more p {
     text-align: center;
-    margin-bottom: 0;
+    margin: 0px 16px;
     font-weight: bold;
 }
 

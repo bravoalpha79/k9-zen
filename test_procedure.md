@@ -114,10 +114,10 @@ From **_Home_** page:
 2. In the Navbar, click on the _Home_ field. Check that the Home page opens.
 3. In the Navbar, click on the _Training_ field. Check that a dropdown menu opens, containing four options:
        
-    3a. In the dropdown menu, click on _Why K9Zen?_. Check that the corresponding section on the Home page opens.  
-    3b. In the dropdown menu, click on _What we offer_. Check that the corresponding section on the Training page opens.  
-    3c. In the dropdown menu, click on _Where we train_. Check that the corresponding section on the Training page opens.  
-    3d. In the dropdown menu, click on _Class timetable_. Check that the corresponding section on the Training page opens.
+    3a. In the dropdown menu, click on _Why K9Zen?_. Check that the browser navigates to the corresponding section on the Home page.  
+    3b. In the dropdown menu, click on _What we offer_. Check that the browser navigates to the corresponding section on the Training page.  
+    3c. In the dropdown menu, click on _Where we train_. Check that the browser navigates to the corresponding section on the Training page.  
+    3d. In the dropdown menu, click on _Class timetable_. Check that the browser navigates to the corresponding section on the Training page.
 4. In the Navbar, click on the _Contact_ field. Check that the Contact page opens.
 5. In the Navbar, click on the _About_ field. Check that the About page opens.
 
@@ -157,7 +157,7 @@ From **_About__** page, repeat actions 1 through 4 of **IC-2**.
 **IC-3**:  
 On **_Home_** page:
 1. Click on the _Discover us!_ button. Check that the browser navigates to the section titled _"Why K9Zen?"_.
-2. Click on the _Let's train!_ button. Check that the browser navigates to **_Training_** page.
+2. Click on the _Let's train!_ button. Check that Training page opens.
 
 **IC-4**:  
 On **_Contact_** page:
@@ -181,8 +181,8 @@ On **_Training_** page:
 On **_Training_** page:
 1. In the "What we offer" section, click on the _location_ anchor. Check that the browser navigates to the appropriate section on the page.
 2. In the "What we offer" section, click on the _timetable_ anchor. Check that the browser navigates to the appropriate section on the page.
-3. In the "What we offer" section, click on the _contact us_ anchor. Check that the browser navigates to Contact page.
-3. In the "Class Timetable" section, click on the _call us_ anchor. Check that the browser navigates to Contact page.
+3. In the "What we offer" section, click on the _contact us_ anchor. Check that Contact page opens.
+3. In the "Class Timetable" section, click on the _call us_ anchor. Check that Contact page opens.
 
 **IC-7**:  
 On **_Contact_** page, click on the _Visit_ button to open the "Visit us" modal. In the modal:
@@ -190,7 +190,7 @@ On **_Contact_** page, click on the _Visit_ button to open the "Visit us" modal.
 2. Click on the _class timetable_ anchor. Check that the browser navigates to the appropriate section on Training page.
 
 **IC-8**:  
-At the bottom of **_About_** page, click on the _contact us_ anchor. Check that the browser navigates to Contact page.
+At the bottom of **_About_** page, click on the _contact us_ anchor. Check that Contact page opens.
 
 
 #### Map
@@ -199,7 +199,7 @@ At the bottom of **_About_** page, click on the _contact us_ anchor. Check that 
 On **_Training_** page, check that the embedded map is fully interactive:
 1. Map zoom in/out is available.
 2. Map panning is available.
-3. Toggle satellite/map view is available
+3. Toggle satellite/map view is available.
 4. Clicking on "Directions" or "View larger map" opens Google Maps in a new browser window.
 
 #### Form
@@ -246,7 +246,7 @@ In the bottom right corner of the modal, click on the _Cancel_ button. Check tha
 ### Responsive Design
 
 **RD-1**:  
-Using Google Chrome Development Tools in Responsive view, check the rendering and layout of each of the four pages at the following width breakpoints:
+Using Google Chrome Development Tools in Responsive view, check the rendering and layout of each of the four pages in the following width ranges:
 1. below 576px;
 2. at and above 576px but below 768px;
 3. at and above 768px but below 992px;
@@ -255,9 +255,9 @@ Using Google Chrome Development Tools in Responsive view, check the rendering an
 
 **RD-2**:  
 Using Google Chrome Development Tools in Device view, check the rendering and layout of each of the four pages on the following emulated devices:
-1. iPad Pro (large screen)
-2. Kindle Fire HDX (medium screen)
-3. Galaxy S5 (extra small screen)
+1. iPad Pro (large screen),
+2. Kindle Fire HDX (medium screen),
+3. Galaxy S5 (extra small screen).
 
 **RD-3**:  
 Check the rendering and layout of each of the four pages on a physical device of your choice.

@@ -102,9 +102,9 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
 ### Existing Features
 
 #### Navigation bar
-- The top-fixed navigation bar provides the user with links to navigate to any of the four available pages; the colour coding in the navbar (darker text colour for the active page link) provides the user with a visual indication of the current page;
+- The top-fixed navigation bar provides the user with links to navigate to any of the four available pages; the colour coding in the navbar (darker text colour for the active page link) provides the user with a visual indication of the current page.
 
-- The Training link opens a dropdown menu which enables the user to navigate directly to individual sections containing specific information about training;
+- The Training link opens a dropdown menu which enables the user to navigate directly to individual sections containing specific information about training.
 
 #### Footer links
 - The footer contains links to social networks (Facebook, Twitter, Instagram and YouTube).    
@@ -132,10 +132,11 @@ _- the Contact page has been completely redesigned for a simpler and cleaner use
       _Note: Upon clicking "Send message", the message form will perform semantic and completeness checks of the fields labelled as required. However, since no back-end processing takes place (as it is outside the scope of this project), the "Send message" button will simply close the pop-up without actually sending the entered information._
 
 ### Features Left to Implement
-- On the About page, add a separate section about PRT history, philosophy and methods in detail
+- On the About page, add a separate section about PRT history, philosophy and methods in detail.
 - Add the smooth scrolling function to links which lead to different sections of the same (current) page (Home and Training).
 - Add interactivity to the Home gallery (the option to open full-size images).
-- Enable the "Read more" anchors in Training to open the additional information as "inline" dropdown text rather than pop-ups.   
+- Enable the "Read more" anchors in Training to open the additional information as "inline" dropdown text rather than pop-ups.
+- Make the site bilingual (add identical content in Croatian and a link/button to switch between languages).   
 
 ## Technologies Used
 
@@ -150,7 +151,7 @@ The languages, frameworks, libraries, and other tools used during this project:
 - [W3schools.com Color Converter](https://www.w3schools.com/colors/colors_converter.asp) was used to convert colours between default, HEX and RGB for CSS coding purposes;
 - Google Chrome Developer Tools were used for debugging and as a styling aid.
 - [Gitpod](https://www.gitpod.io/) was used as the IDE for development and Git version control;
-- [GitHub](https://github.com/) was used for source code storage, safeguarding and site deployment.
+- [GitHub](https://github.com/) was used for source code storage and site deployment (GitHub Pages).
 
 
 
@@ -176,11 +177,10 @@ The test procedures and results are detailed in a [separate document](test_proce
 
 
 
-
 ## Credits
 
 ### Code
-- The "perfect background image" CSS code snippet (used for styling of background images on all pages) was obtained from [CSS-tricks](https://css-tricks.com/);
+- The "perfect background image" CSS code snippet (used for styling of background images on all pages) was obtained from [CSS-tricks](https://css-tricks.com/).
 
 ### Media
 
