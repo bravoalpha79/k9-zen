@@ -24,11 +24,14 @@ h6 {
 .frame--main {
     background-color: rgba(255,228,196,0.7);
     border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 18px;
 }
 
 .frame--info {
     background-color: 	rgba(154, 136, 114,0.6);
     border-radius: 8px;
+    padding: 16px;
 }
 
 .inline--anchor {
@@ -89,14 +92,11 @@ h6 {
 
 /* ----------------- Hero & Callout ------------------ */
 
-/*--- "Perfect background image" code snippet copied from CSS-Tricks.com and used for background images on all pages ---*/
-.hero-container { 
-  background: url("../img/homepage2.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/* "Perfect background image" code snippet copied from CSS-Tricks.com and used for background images on all pages */
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+.hero-background { 
+  background: url("../img/homepage.jpg") no-repeat center center fixed;
   background-size: cover;
-  padding-top: 18px;
 }
 
 .jumbotron-container {
@@ -105,7 +105,7 @@ h6 {
 
 .jumbotron {
     text-align: center;
-    padding-top: 16px;
+    margin-top: 18px;
     padding-bottom: 20px;
 }
 
@@ -127,12 +127,11 @@ h6 {
 }
 
 #prt {
-    padding-top: 100px;
-    padding-bottom: 24px;
+    padding-top: 88px;
+    padding-bottom: 18px;
 }
 
 .prt-intro {
-    padding: 18px;
     background-color: rgba(255,228,196,0.8);
 }
 
@@ -154,18 +153,21 @@ h6 {
 
 /* ----------------- Training ------------------ */
 
-.training-container { 
-    background: url("../img/homepage.jpg") no-repeat top center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+/* CSS-Tricks.com "perfect background image" */
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+.training-background { 
+    background: url("../img/training.jpg") no-repeat top center fixed;
     background-size: cover;
     padding-top: 18px;
     padding-bottom: 18px;
 }
 
-.offer-frame {
-    padding: 12px 18px;
+.offer-frame {}
+
+.offer-header {}
+
+.trg h4 {
+    margin-bottom: 0;
 }
 
 .trg i {
@@ -175,10 +177,6 @@ h6 {
     padding-bottom: 9px;
 }
 
-.trg h4 {
-    margin-bottom: 0;
-}
-
 .trg p {
     text-align: justify;
     margin-bottom: 6px;
@@ -186,34 +184,33 @@ h6 {
 
 .trg-more-info p {
     margin-top: 30px;
-    padding: 16px;
     text-align: center;    
 }
 
-#where,
-#when {
-    visibility: hidden;
-}
+.location {}
 
-.location {
-    padding: 16px;
-    margin-top: 16px;
-}
+.location-header {}
 
 .location-info {
     margin: auto auto;
 }
+
+.location-map {}
 
 .timetable {
     margin-top: 16px;
     padding: 12px;
 }
 
+.timetable-header {}
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 .timetable-day {
     text-align: center;
     margin: 6px;
     padding-top: 12px;
-    box-shadow: 4px 4px 3px #4a4a4f;
+    -webkit-box-shadow: 4px 4px 3px #4a4a4f;
+            box-shadow: 4px 4px 3px #4a4a4f;
 }
 
 .timetable-day p {
@@ -234,11 +231,10 @@ h6 {
 
 /* ----------------- Contact ------------------ */
 
-.contact-container {
+/* CSS-Tricks.com "perfect background image" */
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+.contact-background {
     background: url("../img/contact.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     padding-top: 20vh;
     padding-bottom: 5vh;
@@ -249,6 +245,8 @@ h6 {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+
+.contact-header {}
 
 .btn--outer-frame {
     background-color: rgba(154,136,114,0.2);
@@ -298,22 +296,19 @@ h6 {
 
 /* ----------------- About ------------------ */
 
-.about-container { 
+/* CSS-Tricks.com "perfect background image" */
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+.about-background { 
     background: url("../img/about.jpg") no-repeat top center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    padding: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
-.about-us {
-    padding: 16px 16px 8px;
-}
+.about-us {}
 
 .about-jane,
-.about-john,
-.learn-more {
+.about-john {
     margin: 0px 8px 24px;
     padding: 24px 8px;
 }
@@ -328,6 +323,10 @@ h6 {
     height: 100%;
     width: 100%;
     border-radius: 8px;
+}
+
+.learn-more {
+    margin-bottom: 16px;
 }
 
 .learn-more p {
@@ -374,7 +373,3 @@ h6 {
     margin-bottom: 8px;
     letter-spacing: 1px;
 }
-
-
-
-
