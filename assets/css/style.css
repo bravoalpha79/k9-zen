@@ -42,7 +42,8 @@ h6 {
     display: block; 
     text-align: right;
     font-weight: 400;
-    padding-right: 8px;
+    padding-right: 6px;
+    margin-bottom: 10px;
 }
 
 .custom--modal-bg {
@@ -313,9 +314,8 @@ h6 {
     padding: 24px 8px;
 }
 
-.about-jane h4, 
-.about-john h4 {
-   padding-top: 12px;
+.about-jane h4 {
+   padding-top: 16px;
 }
 
 .jane-image img,
