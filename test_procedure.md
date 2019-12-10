@@ -95,7 +95,7 @@ _Note: the full functionality of the social media links is tested in Interactive
 Check that section frames, margins/paddings and borders are homogenous on all pages.
 
 **SI-5**:  
-Check that the display of images, icons and embedded objects is complete and correct within the overall page structure.  
+Check that the display of images, icons and embedded objects on all pages is complete and correct within the overall page structure.  
 
 **SI-6**:  
 Check that the textual parts contain no typos.
@@ -254,7 +254,7 @@ Using Google Chrome Development Tools in Responsive view, check the rendering an
 5. at and above 1200px.
 
 **RD-2**:  
-Using Google Chrome Development Tools in Device view, check the rendering and layout of each of the four pages on the following emulated devices:
+Using Google Chrome Development Tools in Emulated Device view, check the rendering and layout of each of the four pages on the following emulated devices:
 1. iPad Pro (large screen),
 2. Kindle Fire HDX (medium screen),
 3. Galaxy S5 (extra small screen).
@@ -262,7 +262,29 @@ Using Google Chrome Development Tools in Device view, check the rendering and la
 **RD-3**:  
 Check the rendering and layout of each of the four pages on a physical device of your choice.
 
+----------
 
 
 
-## Test Results 
+## Test Results
+
+Google Chrome was used as the primary test browser.
+
+### Code  
+All HTML and CSS code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No error was found.
+
+### User requirements
+
+
+### Structural integrity  
+All structural integrity tests (SI-1 through SI-7) were performed successfully. 
+
+1. Tests SI-1 through SI-6 were performed using Google Chrome. No issue was found.
+2. Test SI-7, which requires the use of an alternate browser, was performed using the following browsers:
+    - Mozilla Firefox,
+    - Safari,
+    - MS Edge, and
+    - MS Internet Explorer 11.
+
+   
+
