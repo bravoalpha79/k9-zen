@@ -172,7 +172,7 @@ The test procedures and results are detailed in a [separate document](test_proce
 
    The deployment version of the source code is stored on [GitHub](https://github.com/), in the master branch of [bravoalpha79/k9-zen](https://github.com/bravoalpha79/k9-zen).
 
-   From the master branch, the site has been published using [GitHub Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
+   From the master branch, the site has been published using [GitHub Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site). The deployed site code is identical to the code stored on the master branch on GitHub.
 
    **The live version of the site is located at:**   
    **https://bravoalpha79.github.io/k9-zen/index.html** 
