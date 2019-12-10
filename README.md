@@ -149,7 +149,9 @@ The languages, frameworks, libraries, and other tools used during this project:
 - Icons were obtained from [Font Awesome](https://fontawesome.com/);
 - [W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML and CSS code;
 - [W3schools.com Color Converter](https://www.w3schools.com/colors/colors_converter.asp) was used to convert colours between default, HEX and RGB for CSS coding purposes;
-- Google Chrome Developer Tools were used for debugging and as a styling aid.
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) was used for correct vendor prefixing of CSS styles where required;
+- [Compress JPEG](https://compressjpeg.com/) for image file size reduction;
+- Google Chrome Developer Tools were used for debugging and as a styling aid;
 - [Gitpod](https://www.gitpod.io/) was used as the IDE for development and Git version control;
 - [GitHub](https://github.com/) was used for source code storage and site deployment (GitHub Pages).
 
