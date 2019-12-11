@@ -296,9 +296,30 @@ All structural integrity tests (SI-1 through SI-7) were performed successfully.
 
 **_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled.
 
+**_Investigation_**:  
+_Web research revealed that there is a well-known issue (dating back at least to 2016) with fixed background images in IE 11. Suggested solutions involve CSS or JavaScript workarounds._
+_One such [solution](https://www.coffeecup.com/help/articles/solving-the-ie11-fixed-background-bug/) was attempted, however, instead of fixing the issue, this workaround completely disabled the scrolling on the page(s) it was added to._
+
+_Considering that:_  
+
+_- any CSS workaround (especially within the "html" or "body" selectors) bears the risk of creating unwanted impact on elements not originally impacted by the issue, and_  
+_- the issue is absent from **all** other tested browsers, including MS Edge,_  
+
+_it was decided to merely **document the issue and attempt no further fix at this time**._
+
 ---
 
-**_Issue #2_**: On About page, the instuctor photos are not displayed and the structural integrity of the page body is corrupted.
+**_Issue #2_**: On About page, the trainer photos are not displayed and the structural integrity of the page body is corrupted.
+
+**_Investigation_**:  
+_A brief research had suggested that the issue was in all probability related to Bootstrap.  
+The first step was re-checking of the HTML code and, following a peer recommendation (thanks Anthony!) that Bootstrap containers should not be nested within other containers, the code was amended (please see the commit "fixed containers; code cleanup"). However, the issue persisted after this correction.  
+Further web research revealed that there are several well-known issues with IE 11 and Bootstrap. Suggested solutions involve CSS or JavaScript workarounds. However, considering that:_  
+
+_- any CSS workaround bears the risk of creating unwanted side issues, and_  
+_- the issue is absent from **all** other tested browsers, including MS Edge,_  
+
+_it was decided to merely **document the issue and attempt no further fix at this time**._
 
    ---
 ### Interactive components
@@ -314,7 +335,7 @@ On test IC-5, an issue with modal animation on Tricks Training and Individual Tr
 **_Issue #3_**: The modal just appears (pops up) instead of fading in as expected.
 
 **_Investigation_**:  
-_Subsequent code analysis of training.html revealed that the modal class of the two affected modals wrongly contains_ flipXin _and_ flipYin _respectively. This is a leftover from a previous in-project experiment with modal animations as provided by [UpLabs](https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects). Since it had been determined that the proposed custom animations require JavaScript code modifications, and the use of JS is outside the scope of this project, the experiment was abandoned, but the aforementioned code pieces remained in the modal code by mistake. This caused the affected modals to appear with no animation._
+_Subsequent code analysis of training.html revealed that the modal class of the two affected modals wrongly contained_ flipXin _and_ flipYin _respectively. This was a leftover from a previous in-project experiment with modal animations as provided by [UpLabs](https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects). Since it had been determined that the proposed custom animations required JavaScript code modifications, and the use of JS is outside the scope of this project, the experiment was abandoned, but the aforementioned code pieces remained in the modal code by mistake. This caused the affected modals to appear with no animation._
 
 **_Solution_**:
 1. In training.html, replace the code "flipXin" and "flipYin" respectively with "fade" (default Bootstrap modal animation).
@@ -341,7 +362,7 @@ On tests IC-6 through IC-10f, no issue was identified.
 
 All responsive design tests RD-1 through RD-3 were performed successfully. 
 
-Tests RD-1 and RD-2 were performed using Google Chrome as specified.
+Tests RD-1 and RD-2 were performed using Google Chrome as specified.  
 Test RD-3 was performed on LG Wine Smart (LG H410) Android smartphone, with extra small screen (480x320px). 
 
 No issue was identified.
@@ -352,7 +373,7 @@ One observation was raised:
 
 ---
 
-_**Observation #1**: On small and extra small screens (screen width below 768px) the background images on all pages become too focused (i.e. the screen range is too small) to be recognisable._ 
+_**Observation #1**: On small and extra small screens (screen width below 768px) the background images on all pages become too zoomed in (i.e. the screen range is too small) to be recognisable._ 
 
 _However, given that:_  
 
@@ -361,9 +382,39 @@ _- the overall nature and tone of the background images is not distracting to th
 
 _the observation is **not considered to be an issue**._
 
-_Potential future improvement/solution could be either a choice of higher resolution images, or of abstract images._   
+_A potential future improvement/solution could be either a choice of higher resolution images, or of abstract images, for page backgrounds._   
 
 ---
+
+## Test Summary and Conclusion
+
+1. All planned tests have been performed successfully.
+2. All User Requirements have been fulfilled.
+3. Three issues have been identified:
+
+    **_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled in MS Internet Explorer 11.  
+    **_Issue #2_**: On About page, the trainer photos are not displayed and the structural integrity of the page body is corrupted in MS Internet Explorer 11.  
+    **_Issue #3_**: The modal just appears (pops up) instead of fading in as expected.
+
+4. Issue #3 has been analysed and corrected. The implemented correction has been verified successfully. Issue #3 is considered resolved.
+5. Issue #1 and Issue #2 are documented. No fix will be attempted at this time because
+    - known workarounds bear the risk of creating unwanted side effects, and  
+    - the issues are absent from _all_ other tested browsers, including MS Edge.
+
+6. One observation has been raised:
+
+    **Observation #1**: On small and extra small screens (screen width below 768px) the background images on all pages become too zoomed in (i.e. the screen range is too small) to be recognisable.
+
+    The observation is not considered to be an issue. A potential future improvement/solution could be either a choice of higher resolution images, or of abstract images, for page backgrounds.
+
+7. The webpage is **considered ready for official deployment**.  
+
+
+
+
+
+
+
 
 
 

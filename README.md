@@ -167,6 +167,29 @@ Testing has a fourfold objective:
 
 The test procedures and results are detailed in a [separate document](test_procedure.md).
 
+Summary:
+
+1. All planned tests have been performed successfully.
+2. All User Requirements have been fulfilled.
+3. Three issues have been identified:
+
+    **_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled in MS Internet Explorer 11.  
+    **_Issue #2_**: On About page, the trainer photos are not displayed and the structural integrity of the page body is corrupted in MS Internet Explorer 11.  
+    **_Issue #3_**: The modal just appears (pops up) instead of fading in as expected.
+
+4. Issue #3 has been analysed and corrected. The implemented correction has been verified successfully. Issue #3 is considered resolved.
+5. Issue #1 and Issue #2 are documented. No fix will be attempted at this time because
+    - known workarounds bear the risk of creating unwanted side issues, and  
+    - the issues are absent from _all_ other tested browsers, including MS Edge.
+
+6. One observation has been raised:
+
+    **Observation #1**: On small and extra small screens (screen width below 768px) the background images on all pages become too zoomed in (i.e. the screen range is too small) to be recognisable.
+
+    The observation is not considered to be an issue. A potential future improvement/solution could be either a choice of higher resolution images, or of abstract images, for page backgrounds.
+
+7. The webpage is **considered ready for official deployment**.  
+
 
 ## Deployment
 
