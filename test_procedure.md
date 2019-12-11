@@ -292,21 +292,29 @@ All structural integrity tests (SI-1 through SI-7) were performed successfully.
 
     With Microsoft Internet Explorer 11, two issues were identified:
 
-    **_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled.
+---
 
-    **_Issue #2_**: On About page, the instuctor photos are not displayed and the structural integrity of the page body is corurpted.
+**_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled.
 
-   
-### Interactive components  
+---
 
-On tests IC-1 through IC-4, no issue has been identified.
+**_Issue #2_**: On About page, the instuctor photos are not displayed and the structural integrity of the page body is corrupted.
 
-On test IC-5, an issue has been identified with modal animation on Tricks Training and Individual Training sections:
+   ---
+### Interactive components
+
+All interactive components tests have been performed successfully.
+
+On tests IC-1 through IC-4, no issue was identified.
+
+On test IC-5, an issue with modal animation on Tricks Training and Individual Training sections was identified and resolved as follows:
+
+---
 
 **_Issue #3_**: The modal just appears (pops up) instead of fading in as expected.
 
-_Investigation_:  
-_Subsequent code analysis of training.html revealed that the modal class of the two affected modals wrongly contains_ flipXin _and_ flipYin _respectively. This is a leftover from a previous in-project experiment with modal animations as provided by [UpLabs](https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects). Since it had been determined that the proposed custom animations require JavaScript, and the use of JS is outside the scope of this project, the experiment was abandoned, but the aforementioned code pieces remained in the modal code by mistake. This causes the affected modals to appear with no animation._
+**_Investigation_**:  
+_Subsequent code analysis of training.html revealed that the modal class of the two affected modals wrongly contains_ flipXin _and_ flipYin _respectively. This is a leftover from a previous in-project experiment with modal animations as provided by [UpLabs](https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects). Since it had been determined that the proposed custom animations require JavaScript code modifications, and the use of JS is outside the scope of this project, the experiment was abandoned, but the aforementioned code pieces remained in the modal code by mistake. This caused the affected modals to appear with no animation._
 
 **_Solution_**:
 1. In training.html, replace the code "flipXin" and "flipYin" respectively with "fade" (default Bootstrap modal animation).
@@ -318,7 +326,44 @@ _Subsequent code analysis of training.html revealed that the modal class of the 
 - redo test SI-6 on Training page only.
 6. Continue with IC test series.
 
+**_Follow-up_**:
+1. Code replaced/corrected.
+2. HTML validated, no error found.
+3. Changes committed to GitHub.
+4. Test IC-5 repeated successfully. Issue no longer present.
+5. Non-regression tests performed successfully. No regression identified.
+6. **Issue #3 is considered resolved**. _Testing can continue with IC-6._
 
+---
+On tests IC-6 through IC-10f, no issue was identified.
+
+### Responsive design
+
+All responsive design tests RD-1 through RD-3 were performed successfully. 
+
+Tests RD-1 and RD-2 were performed using Google Chrome as specified.
+Test RD-3 was performed on LG Wine Smart (LG H410) Android smartphone, with extra small screen (480x320px). 
+
+No issue was identified.
+
+All width-dependent page features (as defined by Bootstrap's responsive grid layout in the code) were rendered as expected across all breakpoint ranges, and the "Navbar Toggler" button (displayed at screen widths below 576px i.e. on extra small screens) is fully functional.
+
+One observation was raised:
+
+---
+
+_**Observation #1**: On small and extra small screens (screen width below 768px) the background images on all pages become too focused (i.e. the screen range is too small) to be recognisable._ 
+
+_However, given that:_  
+
+_- at those screen sizes, the user focus will be almost completely on the page content and not the background, and_  
+_- the overall nature and tone of the background images is not distracting to the front content,_
+
+_the observation is **not considered to be an issue**._
+
+_Potential future improvement/solution could be either a choice of higher resolution images, or of abstract images._   
+
+---
 
 
 
