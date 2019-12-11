@@ -141,6 +141,8 @@ From **_Home_** page:
 3. In the footer, click on the Instagram icon. Check that the Instagram homepage opens in a new browser window.
 4. In the footer, click on the YouTube icon. Check that the YouTube homepage opens in a new browser window.
 
+_Note: since K9Zen is an entirely_ fictional _training school, the footer links will merely open the homepage / default page of the respective social network, not an actual School's page._
+
 **IC-2a**:   
 From **_Training_** page, repeat actions 1 through 4 of **IC-2**.
 
@@ -148,7 +150,7 @@ From **_Training_** page, repeat actions 1 through 4 of **IC-2**.
 From **_Contact_** page, repeat actions 1 through 4 of **IC-2**.
 
 **IC-2c**:  
-From **_About__** page, repeat actions 1 through 4 of **IC-2**.
+From **_About_** page, repeat actions 1 through 4 of **IC-2**.
 
 
 
@@ -274,7 +276,7 @@ Google Chrome was used as the primary test browser.
 All HTML and CSS code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No error was found.
 
 ### User requirements
-
+All user requirement tests (UR-1a through UR-7b) were performed successfully. No deficiency was identified.
 
 ### Structural integrity  
 All structural integrity tests (SI-1 through SI-7) were performed successfully. 
@@ -286,5 +288,41 @@ All structural integrity tests (SI-1 through SI-7) were performed successfully.
     - MS Edge, and
     - MS Internet Explorer 11.
 
+    For Mozilla Firefox, Safari and MS Edge, no issue was found.
+
+    With Microsoft Internet Explorer 11, two issues were identified:
+
+    **_Issue #1_**: On all pages, the background image jerks/twitches when the page is scrolled.
+
+    **_Issue #2_**: On About page, the instuctor photos are not displayed and the structural integrity of the page body is corurpted.
+
    
+### Interactive components  
+
+On tests IC-1 through IC-4, no issue has been identified.
+
+On test IC-5, an issue has been identified with modal animation on Tricks Training and Individual Training sections:
+
+**_Issue #3_**: The modal just appears (pops up) instead of fading in as expected.
+
+_Investigation_:  
+_Subsequent code analysis of training.html revealed that the modal class of the two affected modals wrongly contains_ flipXin _and_ flipYin _respectively. This is a leftover from a previous in-project experiment with modal animations as provided by [UpLabs](https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects). Since it had been determined that the proposed custom animations require JavaScript, and the use of JS is outside the scope of this project, the experiment was abandoned, but the aforementioned code pieces remained in the modal code by mistake. This causes the affected modals to appear with no animation._
+
+**_Solution_**:
+1. In training.html, replace the code "flipXin" and "flipYin" respectively with "fade" (default Bootstrap modal animation).
+2. Re-validate HTML code of training.html using the [W3C Markup Validation Service](https://validator.w3.org/).
+3. Commit changes to master on GitHub.
+4. On updated GitHub Pages site, repeat test IC-5.
+5. For non-regression testing: 
+- redo test UR-3b;
+- redo test SI-6 on Training page only.
+6. Continue with IC test series.
+
+
+
+
+
+
+
+
 
